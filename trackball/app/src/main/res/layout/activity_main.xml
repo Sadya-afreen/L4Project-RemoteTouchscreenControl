@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/L_btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="257dp"
+        android:layout_marginRight="257dp"
+        android:layout_marginBottom="89dp"
+
+        android:text="Left Click"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/R_btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="245dp"
+        android:layout_marginLeft="245dp"
+        android:layout_marginBottom="89dp"
+
+        android:text="Right Click"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/stop_btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="181dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="79dp"
+        android:layout_marginBottom="-2dp"
+        android:onClick="onClick"
+        android:text="Stop Connection"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+    android:id="@+id/virtualTrackball"
+    android:layout_centerInParent="true"
+    android:background="@drawable/bg_trackball"
+    android:layout_width="320dp"
+    android:layout_height="320dp">
+
+    <com.example.trackball.CircleTrackball
+
+            android:id="@+id/ball"
+            android:background="@drawable/bg_circle_trackball"
+            android:layout_centerInParent="true"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:backgroundTint="@color/red"/>
+    </RelativeLayout>
+
+</RelativeLayout>
