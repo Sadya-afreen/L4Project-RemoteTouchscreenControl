@@ -1,0 +1,241 @@
+Participant,Condition,Block,Task,Trial,template.tx,final.tx,template.ty,final.ty,Start Time,End Time,timems,txdiff,tydiff,Euclidean_distance_error
+1,Smart Trackpad,3D Task,3D Model Rotation,1,-12.28,-10.54,8.86,8.7,15:40:29,15:41:14,45000,1.74,-0.16,1.747340837
+1,Smart Trackpad,3D Task,3D Model Rotation,2,-7.74,-7.85,4.19,4.3,15:42:05,15:42:48,43000,-0.11,0.11,0.155563492
+1,Smart Rotate Pointer,3D Task,3D Model Rotation,1,-4.62,-4.6,9.83,9.65,16:13:47,16:14:30,43000,0.02,-0.18,0.181107703
+1,Smart Rotate Pointer,3D Task,3D Model Rotation,2,1.72,2.02,0.67,0.68,16:14:36,16:15:01,25000,0.3,0.01,0.30016662
+1,Smart Tilt Pointer,3D Task,3D Model Rotation,1,0.74,0.8,6,2.74,17:37:27,17:37:58,31000,0.06,-3.26,3.2605521
+1,Smart Tilt Pointer,3D Task,3D Model Rotation,2,-10.05,-10.75,6.23,6.2,15:40:40,15:41:20,40000,-0.7,-0.03,0.700642562
+1,Smart Trackball,3D Task,3D Model Rotation,1,0.94,1.02,4.13,4,18:05:35,18:06:16,41000,0.08,-0.13,0.152643375
+1,Smart Trackball,3D Task,3D Model Rotation,2,-7.46,-7.7,5.52,5.5,18:06:22,18:07:04,32000,-0.24,-0.02,0.240831892
+1,Smart Trackpad,3D Task,3D Model Rotation,1,12.28,7.45,8.86,3.49,15:40:29,15:41:14,45000,-4.83,-5.37,7.222589563
+1,Smart Trackpad,3D Task,3D Model Rotation,2,7.74,7.76,-4.19,-4.24,15:42:05,15:42:48,43000,0.02,-0.05,0.053851648
+1,Smart Rotate Pointer,3D Task,3D Model Rotation,1,4.62,4.66,-9.83,-9.44,16:13:47,16:14:30,43000,0.04,0.39,0.392045916
+1,Smart Rotate Pointer,3D Task,3D Model Rotation,2,-1.72,-1.85,-0.67,-0.45,16:14:36,16:15:01,25000,-0.13,0.22,0.255538647
+1,Smart Tilt Pointer,3D Task,3D Model Rotation,1,-0.74,-1.4,-6,-6.95,17:37:27,17:37:58,31000,-0.66,-0.95,1.156762724
+1,Smart Tilt Pointer,3D Task,3D Model Rotation,2,10.05,10.06,-6.23,-6.28,15:40:40,15:41:20,40000,0.01,-0.05,0.050990195
+1,Smart Trackball,3D Task,3D Model Rotation,1,-0.94,-0.9,-4.13,-4.05,18:05:35,18:06:16,41000,0.04,0.08,0.089442719
+1,Smart Trackball,3D Task,3D Model Rotation,2,7.46,3.66,-5.52,-0.84,18:06:22,18:07:04,32000,-3.8,4.68,3.028465808
+2,Smart Trackball,3D Task,3D Cube Translation,1,-10.07,-10.5,3.21,3.4,14:12:28,14:13:13,35000,-0.43,0.19,0.470106371
+2,Smart Trackball,3D Task,3D Cube Translation,2,-8.04,-7.95,2.35,2.25,14:13:37,14:14:01,24000,0.09,-0.1,0.13453624
+2,Smart Trackpad,3D Task,3D Cube Translation,1,-8.29,-7.8,2.6,2.35,14:29:51,14:30:32,41000,0.49,-0.25,0.550090902
+2,Smart Trackpad,3D Task,3D Cube Translation,2,-8.5,-6.9,3.32,3.75,14:31:28,14:32:03,35000,1.6,0.43,1.656773974
+2,Smart Tilt Pointer,3D Task,3D Cube Translation,1,-12.88,-10.7,-1.68,-0.9,14:46:10,14:46:52,42000,2.18,0.78,2.315340148
+2,Smart Tilt Pointer,3D Task,3D Cube Translation,2,0.34,0.2,7.08,7.85,14:46:57,14:47:28,31000,-0.14,0.77,0.782623792
+2,Smart Rotate Pointer,3D Task,3D Cube Translation,1,-2.55,-3.3,7.42,3.85,15:53:24,15:54:02,38000,-0.75,-3.57,3.64793092
+2,Smart Rotate Pointer,3D Task,3D Cube Translation,2,-2.85,-3.15,4.83,4.9,15:54:13,15:54:49,36000,-0.3,0.07,0.308058436
+2,Smart Trackball,3D Task,3D Cube Translation,1,10.07,9.7,-3.21,-3.22,14:12:28,14:13:13,35000,-0.37,-0.01,0.37013511
+2,Smart Trackball,3D Task,3D Cube Translation,2,8.04,8.02,-2.35,-2.56,14:13:37,14:14:01,24000,-0.02,-0.21,0.210950231
+2,Smart Trackpad,3D Task,3D Cube Translation,1,8.29,8.62,-2.6,-2.72,14:29:51,14:30:32,41000,0.33,-0.12,0.351140997
+2,Smart Trackpad,3D Task,3D Cube Translation,2,8.5,8.76,-3.32,-3.42,14:31:28,14:32:03,35000,0.26,-0.1,0.278567766
+2,Smart Tilt Pointer,3D Task,3D Cube Translation,1,12.88,5,1.68,0.02,14:46:10,14:46:52,42000,-7.88,-1.66,8.05294977
+2,Smart Tilt Pointer,3D Task,3D Cube Translation,2,-0.34,-0.54,-7.08,-7.32,14:46:57,14:47:28,31000,-0.2,-0.24,0.312409987
+2,Smart Rotate Pointer,3D Task,3D Cube Translation,1,2.55,5,-7.42,-0.02,15:53:24,15:54:02,38000,2.45,7.4,7.795030468
+2,Smart Rotate Pointer,3D Task,3D Cube Translation,2,2.85,2.62,-4.83,-4.62,15:54:13,15:54:49,36000,-0.23,0.21,0.31144823
+3,Smart Tilt Pointer,3D Task,3D Cube Translation,1,-12.37,-11.85,-2,-2,20:42:37,20:42:59,22000,0.52,0,0.52
+3,Smart Tilt Pointer,3D Task,3D Cube Translation,2,-5.76,-5.65,2.66,2.4,20:43:49,20:44:22,33000,0.11,-0.26,0.282311884
+3,Smart Trackball,3D Task,3D Cube Translation,1,-7.23,-7.3,0.94,1.25,20:54:40,20:55:06,26000,-0.07,0.31,0.317804972
+3,Smart Trackball,3D Task,3D Cube Translation,2,2.89,3.2,7.16,7.15,20:55:36,20:55:59,23000,0.31,-0.01,0.310161248
+3,Smart Trackpad,3D Task,3D Cube Translation,1,-8.28,-8.15,3.13,3.15,21:12:40,21:12:51,11000,0.13,0.02,0.131529464
+3,Smart Trackpad,3D Task,3D Cube Translation,2,-4.53,-4.45,4.5,4.35,21:13:35,21:13:47,12000,0.08,-0.15,0.17
+3,Smart Rotate Pointer,3D Task,3D Cube Translation,1,1.22,1.2,6.58,6.25,21:33:58,21:34:29,31000,-0.02,-0.33,0.330605505
+3,Smart Rotate Pointer,3D Task,3D Cube Translation,2,-1.83,-1.95,-0.5,-0.45,21:34:43,21:35:00,17000,-0.12,0.05,0.13
+3,Smart Tilt Pointer,3D Task,3D Cube Translation,1,12.37,10.45,2,1.23,20:42:37,20:42:59,22000,-1.92,-0.77,2.068646901
+3,Smart Tilt Pointer,3D Task,3D Cube Translation,2,5.76,5.65,-2.66,-1.78,20:43:49,20:44:22,33000,-0.11,0.88,0.886848352
+3,Smart Trackball,3D Task,3D Cube Translation,1,7.23,7.1,-0.94,-0.76,20:54:40,20:55:06,26000,-0.13,0.18,0.222036033
+3,Smart Trackball,3D Task,3D Cube Translation,2,-2.89,-2.56,-7.16,-6.83,20:55:36,20:55:59,23000,0.33,0.33,0.466690476
+3,Smart Trackpad,3D Task,3D Cube Translation,1,8.28,8.1,-3.13,-2.49,21:12:40,21:12:51,11000,-0.18,0.64,0.664830806
+3,Smart Trackpad,3D Task,3D Cube Translation,2,4.53,4.2,-4.5,-2.11,21:13:35,21:13:47,12000,-0.33,2.39,2.412674864
+3,Smart Rotate Pointer,3D Task,3D Cube Translation,1,-1.22,-0.97,-6.58,-5.78,21:33:58,21:34:29,31000,0.25,0.8,0.838152731
+3,Smart Rotate Pointer,3D Task,3D Cube Translation,2,1.83,1.97,0.5,0.48,21:34:43,21:35:00,17000,0.14,-0.02,0.141421356
+4,Smart Trackball,3D Task,3D Cube Translation,1,-7.23,-7.3,0.94,1.25,20:54:40,20:55:06,26000,-0.07,0.31,0.317804972
+4,Smart Trackball,3D Task,3D Cube Translation,2,2.89,3.2,7.16,7.15,20:55:36,20:55:59,23000,0.31,-0.01,0.310161248
+4,Smart Trackpad,3D Task,3D Cube Translation,1,-8.28,-8.15,3.13,3.15,21:12:40,21:12:51,11000,0.13,0.02,0.131529464
+4,Smart Trackpad,3D Task,3D Cube Translation,2,-4.53,-4.45,4.5,4.35,21:13:35,21:13:47,12000,0.08,-0.15,0.17
+4,Smart Rotate Pointer,3D Task,3D Cube Translation,1,1.22,1.2,6.58,6.25,21:33:58,21:34:29,31000,-0.02,-0.33,0.330605505
+4,Smart Rotate Pointer,3D Task,3D Cube Translation,2,-1.83,-1.95,-0.5,-0.45,21:34:43,21:35:00,17000,-0.12,0.05,0.13
+4,Smart Tilt Pointer,3D Task,3D Cube Translation,1,-8.48,-8.6,3.78,3.6,17:50:40,17:50:57,17000,-0.12,-0.18,0.216333077
+4,Smart Tilt Pointer,3D Task,3D Cube Translation,2,-1.17,-1.95,2.47,2.73,17:27:06,17:27:49,43000,-0.78,0.26,0.822192192
+4,Smart Trackball,3D Task,3D Cube Translation,1,7.23,5,-0.94,0,20:54:40,20:55:06,26000,-2.23,0.94,2.420020661
+4,Smart Trackball,3D Task,3D Cube Translation,2,-2.89,5,-7.16,0,20:55:36,20:55:59,23000,7.89,7.16,3.65446855
+4,Smart Trackpad,3D Task,3D Cube Translation,1,8.28,5,-3.13,0,21:12:40,21:12:51,11000,-3.28,3.13,4.53379532
+4,Smart Trackpad,3D Task,3D Cube Translation,2,4.53,3.2,-4.5,0,21:13:35,21:13:47,12000,-1.33,4.5,4.692430074
+4,Smart Rotate Pointer,3D Task,3D Cube Translation,1,-1.22,-5,-6.58,0,21:33:58,21:34:29,31000,-3.78,6.58,7.58846493
+4,Smart Rotate Pointer,3D Task,3D Cube Translation,2,1.83,0.54,0.5,0,21:34:43,21:35:00,17000,-1.29,-0.5,1.383510029
+4,Smart Tilt Pointer,3D Task,3D Cube Translation,1,8.48,8.32,-3.78,-4,17:50:40,17:50:57,17000,-0.16,-0.22,0.27202941
+4,Smart Tilt Pointer,3D Task,3D Cube Translation,2,1.17,1.67,-2.47,-0.39,17:27:06,17:27:49,43000,0.5,2.08,2.139252206
+5,Smart Rotate Pointer,3D Task,3D Cube Translation,1,-5.33,-6.8,4.5,2,14:05:52,14:06:28,36000,-1.47,-2.5,2.900155168
+5,Smart Rotate Pointer,3D Task,3D Cube Translation,2,-16.78,-7.7,0.26,0.5,14:06:42,14:07:18,36000,9.08,0.24,9.083171252
+5,Smart Tilt Pointer,3D Task,3D Cube Translation,1,-0.2,-0.2,1.95,2.9,14:23:02,14:23:37,35000,0,0.95,0.95
+5,Smart Tilt Pointer,3D Task,3D Cube Translation,2,-4.62,-4.6,9.83,9.65,14:23:42,14:24:25,43000,0.02,-0.18,0.181107703
+5,Smart Trackpad,3D Task,3D Cube Translation,1,2.29,2.2,2.65,2.6,15:09:33,15:10:06,33000,-0.09,-0.05,0.102956301
+5,Smart Trackpad,3D Task,3D Cube Translation,2,-11.95,-11.5,-1.5,-1.65,15:10:19,15:11:03,44000,0.45,-0.15,0.474341649
+5,Smart Trackball,3D Task,3D Cube Translation,1,-1.73,-1.8,2.63,2.8,15:25:22,15:25:52,30000,-0.07,0.17,0.183847763
+5,Smart Trackball,3D Task,3D Cube Translation,2,-15.8,-15.85,7.52,7.9,15:26:09,15:26:46,27000,-0.05,0.38,0.383275358
+5,Smart Rotate Pointer,3D Task,3D Cube Translation,1,5.33,5.24,-4.5,-4.48,14:05:52,14:06:28,36000,-0.09,0.02,0.092195445
+5,Smart Rotate Pointer,3D Task,3D Cube Translation,2,16.78,4.98,-0.26,-0.24,14:06:42,14:07:18,36000,-11.8,0.02,11.80001695
+5,Smart Tilt Pointer,3D Task,3D Cube Translation,1,-0.2,1.06,-1.95,1.82,14:23:02,14:23:37,35000,1.26,3.77,3.974984277
+5,Smart Tilt Pointer,3D Task,3D Cube Translation,2,4.62,4.66,-9.83,-9.44,14:23:42,14:24:25,43000,0.04,0.39,0.392045916
+5,Smart Trackpad,3D Task,3D Cube Translation,1,-2.29,-2.6,-2.65,-2.3,15:09:33,15:10:06,33000,-0.31,0.35,0.467546789
+5,Smart Trackpad,3D Task,3D Cube Translation,2,11.95,4.02,1.5,1.4,15:10:19,15:11:03,44000,-7.93,-0.1,7.930630492
+5,Smart Trackball,3D Task,3D Cube Translation,1,1.73,1.84,-2.63,-2.68,15:25:22,15:25:52,30000,0.11,-0.05,5.12083046
+5,Smart Trackball,3D Task,3D Cube Translation,2,15.8,3.76,-7.52,-0.08,15:26:09,15:26:46,27000,-12.04,7.44,4.15327524
+6,Smart Tilt Pointer,3D Task,3D Cube Translation,1,-0.79,-0.15,4.99,5.4,17:35:06,17:35:40,34000,0.64,0.41,0.760065787
+6,Smart Tilt Pointer,3D Task,3D Cube Translation,2,-1.24,-0.75,5.04,4.7,17:36:00,17:36:21,21000,0.49,-0.34,0.596405902
+6,Smart Rotate Pointer,3D Task,3D Cube Translation,1,-10.69,-10.15,5.65,5.3,17:46:19,17:46:54,35000,0.54,-0.35,0.643506022
+6,Smart Rotate Pointer,3D Task,3D Cube Translation,2,-0.3,-1.15,-1.43,-1.55,17:47:07,17:47:46,39000,-0.85,-0.12,0.858428797
+6,Smart Trackpad,3D Task,3D Cube Translation,1,0.54,0.5,-1.56,1.75,17:57:28,17:58:01,33000,-0.04,3.31,3.310241683
+6,Smart Trackpad,3D Task,3D Cube Translation,2,-12.85,-13.05,0.9,0.35,17:58:17,17:58:59,42000,-0.2,-0.55,0.585234996
+6,Smart Trackball,3D Task,3D Cube Translation,1,-0.99,-1.3,4.66,5.2,18:06:53,18:07:36,23000,-0.31,0.54,0.622655603
+6,Smart Trackball,3D Task,3D Cube Translation,2,1.4,1.15,5.49,5.65,18:08:29,18:09:11,32000,-0.25,0.16,0.296816442
+6,Smart Tilt Pointer,3D Task,3D Cube Translation,1,0.79,1.86,-4.99,-3.36,17:35:06,17:35:40,34000,1.07,1.63,1.949820505
+6,Smart Tilt Pointer,3D Task,3D Cube Translation,2,1.24,2.82,-5.04,-3.98,17:36:00,17:36:21,21000,1.58,1.06,1.902629759
+6,Smart Rotate Pointer,3D Task,3D Cube Translation,1,10.69,3.06,-5.65,-0.74,17:46:19,17:46:54,35000,-7.63,4.91,9.073312515
+6,Smart Rotate Pointer,3D Task,3D Cube Translation,2,0.3,1.8,1.43,0,17:47:07,17:47:46,39000,1.5,-1.43,2.072414051
+6,Smart Trackpad,3D Task,3D Cube Translation,1,-0.54,-0.58,1.56,-1.66,17:57:28,17:58:01,33000,-0.04,-3.22,3.220248438
+6,Smart Trackpad,3D Task,3D Cube Translation,2,12.85,4.16,-0.9,-0.32,17:58:17,17:58:59,42000,-8.69,0.58,3.709334073
+6,Smart Trackball,3D Task,3D Cube Translation,1,0.99,0.6,-4.66,-3.16,18:06:53,18:07:36,23000,-0.39,1.5,1.549870962
+6,Smart Trackball,3D Task,3D Cube Translation,2,-1.4,-0.88,-5.49,-4.7,18:08:29,18:09:11,32000,0.52,0.79,0.945780101
+7,Smart Trackball,3D Task,3D Cube Translation,1,-9.31,-9.4,6.05,6.05,19:44:03,19:44:43,20000,-0.09,0,6.09
+7,Smart Trackball,3D Task,3D Cube Translation,2,-1.11,-1.25,4.84,4.8,19:44:53,19:45:20,27000,-0.14,-0.04,0.145602198
+7,Smart Rotate Pointer,3D Task,3D Cube Translation,1,-12.98,-11.95,5.41,6.35,20:04:09,20:04:52,43000,1.03,0.94,1.394453298
+7,Smart Rotate Pointer,3D Task,3D Cube Translation,2,2.56,3.05,0.34,0.2,20:04:59,20:05:36,37000,0.49,-0.14,0.509607692
+7,Smart Tilt Pointer,3D Task,3D Cube Translation,1,-0.6,-0.45,5.3,5.9,20:25:06,20:25:43,37000,0.15,0.6,0.618465844
+7,Smart Tilt Pointer,3D Task,3D Cube Translation,2,-5.85,-6.15,9.06,9.05,20:25:44,20:26:28,44000,-0.3,-0.01,0.30016662
+7,Smart Trackpad,3D Task,3D Cube Translation,1,-14.62,-14.55,2.09,2.45,20:45:13,20:45:51,38000,0.07,0.36,0.366742416
+7,Smart Trackpad,3D Task,3D Cube Translation,2,-9.43,-5,4.74,0,20:46:12,20:46:53,41000,4.43,-4.74,3.487873303
+7,Smart Trackball,3D Task,3D Cube Translation,1,9.31,4.28,-6.05,-1.54,19:44:03,19:44:43,20000,-5.03,4.51,2.755812312
+7,Smart Trackball,3D Task,3D Cube Translation,2,1.11,1.16,-4.84,-0.02,19:44:53,19:45:20,27000,0.05,4.82,3.820259329
+7,Smart Rotate Pointer,3D Task,3D Cube Translation,1,12.98,5,-5.41,0,20:04:09,20:04:52,43000,-7.98,5.41,9.640980241
+7,Smart Rotate Pointer,3D Task,3D Cube Translation,2,-2.56,-2.72,-0.34,-0.58,20:04:59,20:05:36,37000,-0.16,-0.24,0.288444102
+7,Smart Tilt Pointer,3D Task,3D Cube Translation,1,0.6,1.7,-5.3,-5.4,20:25:06,20:25:43,37000,1.1,-0.1,1.104536102
+7,Smart Tilt Pointer,3D Task,3D Cube Translation,2,5.85,4.98,-9.07,-8.28,20:25:44,20:26:28,44000,-0.87,0.79,1.175159564
+7,Smart Trackpad,3D Task,3D Cube Translation,1,14.62,4,-2.09,-0.98,20:45:13,20:45:51,38000,-10.62,1.11,5.67785091
+7,Smart Trackpad,3D Task,3D Cube Translation,2,9.43,4.88,-4.74,-0.3,20:46:12,20:46:53,41000,-4.55,4.44,6.357365807
+8,Smart Trackball,3D Task,3D Cube Translation,1,-4.02,-4.1,1.94,1.9,21:42:10,21:42:45,35000,-0.08,-0.04,0.089442719
+8,Smart Trackball,3D Task,3D Cube Translation,2,-5.44,-5.45,1.29,1.3,21:42:57,21:43:39,22000,-0.01,0.01,0.014142136
+8,Smart Tilt Pointer,3D Task,3D Cube Translation,1,-14.2,-13.9,-1.8,-1.45,22:42:21,22:42:52,31000,0.3,0.35,0.460977223
+8,Smart Tilt Pointer,3D Task,3D Cube Translation,2,0.98,1.4,3.57,3.8,22:42:55,22:43:40,45000,0.42,0.23,0.478852796
+8,Smart Rotate Pointer,3D Task,3D Cube Translation,1,-2.6,-3.35,1.61,1.75,23:01:22,23:02:02,40000,-0.75,0.14,0.762954782
+8,Smart Rotate Pointer,3D Task,3D Cube Translation,2,1.41,1.3,8.04,3.3,23:02:13,23:03:51,38000,-0.11,-4.74,4.7412762
+8,Smart Trackpad,3D Task,3D Cube Translation,1,-5.39,-5.35,3.43,3.4,23:14:06,23:14:28,22000,0.04,-0.03,0.05
+8,Smart Trackpad,3D Task,3D Cube Translation,2,1.31,1.45,4.98,4.8,23:14:57,23:15:19,22000,0.14,-0.18,0.228035085
+8,Smart Trackball,3D Task,3D Cube Translation,1,4.02,4.1,-1.94,-1.86,21:42:10,21:42:45,35000,0.08,0.08,0.113137085
+8,Smart Trackball,3D Task,3D Cube Translation,2,5.44,5.4,-1.29,-1.26,21:42:57,21:43:39,22000,-0.04,0.03,0.05
+8,Smart Tilt Pointer,3D Task,3D Cube Translation,1,14.2,13.68,1.8,1.4,22:42:21,22:42:52,31000,-0.52,-0.4,0.656048779
+8,Smart Tilt Pointer,3D Task,3D Cube Translation,2,-0.98,-1.04,-3.57,-3.56,22:42:55,22:43:40,45000,-0.06,0.01,0.060827625
+8,Smart Rotate Pointer,3D Task,3D Cube Translation,1,2.6,0.88,-1.61,-0.28,23:01:22,23:02:02,40000,-1.72,1.33,2.174235498
+8,Smart Rotate Pointer,3D Task,3D Cube Translation,2,-1.41,-1.98,-8.04,-0.02,23:02:13,23:03:51,38000,-0.57,8.02,8.040230096
+8,Smart Trackpad,3D Task,3D Cube Translation,1,5.39,5.56,-3.43,-3.5,23:14:06,23:14:28,22000,0.17,-0.07,0.183847763
+8,Smart Trackpad,3D Task,3D Cube Translation,2,-1.31,-1.42,-4.98,-4.98,23:14:57,23:15:19,22000,-0.11,0,0.11
+9,Smart Tilt Pointer,3D Task,3D Cube Translation,1,-3.57,-3.7,-1.85,-1.95,21:05:41,21:06:15,34000,-0.13,-0.1,0.164012195
+9,Smart Tilt Pointer,3D Task,3D Cube Translation,2,-5.44,-5.3,4.82,3.95,21:06:16,21:06:48,32000,0.14,-0.87,0.881192374
+9,Smart Rotate Pointer,3D Task,3D Cube Translation,1,-1.71,-1.65,5.21,5.15,21:40:28,21:41:06,38000,0.06,-0.06,0.084852814
+9,Smart Rotate Pointer,3D Task,3D Cube Translation,2,-8.47,-5,9.77,0.2,21:41:08,21:41:50,42000,3.47,-9.57,10.17967583
+9,Smart Trackpad,3D Task,3D Cube Translation,1,-1.64,-1.6,2.77,2.8,22:27:02,22:27:43,41000,0.04,0.03,0.05
+9,Smart Trackpad,3D Task,3D Cube Translation,2,-5.55,-5.55,9.09,9.25,22:27:43,22:28:12,29000,0,0.16,0.16
+9,Smart Trackball,3D Task,3D Cube Translation,1,-0.29,-0.1,0.62,0.65,22:44:14,22:44:33,19000,0.19,0.03,0.192353841
+9,Smart Trackball,3D Task,3D Cube Translation,2,-9.97,-10.3,9.02,9.45,22:44:36,22:44:58,22000,-0.33,0.43,0.542033209
+9,Smart Tilt Pointer,3D Task,3D Cube Translation,1,3.57,3.26,1.85,1.76,21:05:41,21:06:15,34000,-0.31,-0.09,0.322800248
+9,Smart Tilt Pointer,3D Task,3D Cube Translation,2,5.44,5.18,-4.82,-4.98,21:06:16,21:06:48,32000,-0.26,-0.16,0.30528675
+9,Smart Rotate Pointer,3D Task,3D Cube Translation,1,1.71,1.56,-5.21,0,21:40:28,21:41:06,38000,-0.15,5.21,5.212158862
+9,Smart Rotate Pointer,3D Task,3D Cube Translation,2,8.47,5,-9.77,0,21:41:08,21:41:50,42000,-3.47,9.77,10.36792168
+9,Smart Trackpad,3D Task,3D Cube Translation,1,-1.64,-1.76,-2.77,-2.72,22:27:02,22:27:43,41000,-0.12,0.05,0.13
+9,Smart Trackpad,3D Task,3D Cube Translation,2,5.55,5.58,-9.09,-8.18,22:27:43,22:28:12,29000,0.03,0.91,0.910494371
+9,Smart Trackball,3D Task,3D Cube Translation,1,0.29,0.36,-0.62,-0.64,22:44:14,22:44:33,19000,0.07,-0.02,0.072801099
+9,Smart Trackball,3D Task,3D Cube Translation,2,9.97,10.02,-9.02,-9,22:44:36,22:44:58,22000,0.05,0.02,0.053851648
+10,Smart Rotate Pointer,3D Task,3D Cube Translation,1,2.72,2.75,3.27,3.3,19:35:26,19:36:01,35149,0.03,0.03,0.042426407
+10,Smart Rotate Pointer,3D Task,3D Cube Translation,2,-6.5,-6.3,6.11,5.95,19:36:01,19:36:19,17539,0.2,-0.16,0.256124969
+10,Smart Trackball,3D Task,3D Cube Translation,1,-7.41,-7.4,0.4,0.25,19:50:47,19:51:10,23700,0.01,-0.15,0.150332964
+10,Smart Trackball,3D Task,3D Cube Translation,2,-1.91,-1.95,-1.06,-1.2,19:51:36,19:52:03,27008,-0.04,-0.14,0.145602198
+10,Smart Tilt Pointer,3D Task,3D Cube Translation,1,1.94,1.9,0.44,0.55,20:04:03,20:04:27,24005,-0.04,0.11,0.117046999
+10,Smart Tilt Pointer,3D Task,3D Cube Translation,2,-5.05,-5.04,7.2,7.25,20:04:50,20:05:17,27300,0.01,0.05,0.050990195
+10,Smart Trackpad,3D Task,3D Cube Translation,1,-8.68,-8.55,7.59,7.25,20:17:51,20:18:16,25478,0.13,-0.34,0.364005494
+10,Smart Trackpad,3D Task,3D Cube Translation,2,-2.74,-2.55,9,8.65,20:18:38,20:19:20,42033,0.19,-0.35,0.398246155
+10,Smart Rotate Pointer,3D Task,3D Cube Translation,1,-2.72,-2.68,-3.27,3.2,19:35:26,19:36:01,35149,0.04,6.47,6.470123646
+10,Smart Rotate Pointer,3D Task,3D Cube Translation,2,6.5,5.2,-6.11,-6.02,19:36:01,19:36:19,17539,-1.3,0.09,1.303111661
+10,Smart Trackball,3D Task,3D Cube Translation,1,7.41,7.14,-0.4,-0.32,19:50:47,19:51:10,23700,-0.27,0.08,0.281602557
+10,Smart Trackball,3D Task,3D Cube Translation,2,1.91,1.96,1.06,1,19:51:36,19:52:03,27008,0.05,-0.06,0.078102497
+10,Smart Tilt Pointer,3D Task,3D Cube Translation,1,-1.94,-1.7,-0.44,-0.28,20:04:03,20:04:27,24005,0.24,0.16,0.288444102
+10,Smart Tilt Pointer,3D Task,3D Cube Translation,2,5.05,4.98,-7.2,-7.02,20:04:50,20:05:17,27300,-0.07,0.18,0.193132079
+10,Smart Trackpad,3D Task,3D Cube Translation,1,8.68,8.74,-7.59,-7.8,20:17:51,20:18:16,25478,0.06,-0.21,0.218403297
+10,Smart Trackpad,3D Task,3D Cube Translation,2,2.74,2.4,-9,-5.84,20:18:38,20:19:20,42033,-0.34,3.16,3.178238506
+11,Smart Rotate Pointer,3D Task,3D Cube Translation,1,-12.88,-12.85,-1,-0.7,21:19:36,21:20:19,42939,0.03,0.3,0.301496269
+11,Smart Rotate Pointer,3D Task,3D Cube Translation,2,-6.06,-6.02,4.97,4.82,21:20:29,21:20:57,28000,0.04,-0.15,0.155241747
+11,Smart Tilt Pointer,3D Task,3D Cube Translation,1,-1.13,-1.1,5.32,5.55,21:46:51,21:47:23,32208,0.03,0.23,0.23194827
+11,Smart Tilt Pointer,3D Task,3D Cube Translation,2,-8.24,-8.2,1.79,1.75,21:47:23,21:47:54,31000,0.04,-0.04,0.056568542
+11,Smart Trackball,3D Task,3D Cube Translation,1,-1.65,-1.7,2.63,2.7,22:00:56,22:01:38,41158,-0.05,0.07,0.086023253
+11,Smart Trackball,3D Task,3D Cube Translation,2,-16.62,-13.25,-1.57,-1.55,22:01:46,22:02:27,41235,3.37,0.02,3.370059347
+11,Smart Trackpad,3D Task,3D Cube Translation,1,-0.83,-0.55,5.29,5.2,22:14:30,22:15:03,33126,0.28,-0.09,0.294108823
+11,Smart Trackpad,3D Task,3D Cube Translation,2,-4.9,-4.75,4.04,4.15,22:15:21,22:15:50,29096,0.15,0.11,0.186010752
+11,Smart Rotate Pointer,3D Task,3D Cube Translation,1,12.88,12.44,1,1.2,21:19:36,21:20:19,42939,-0.44,0.2,0.483321839
+11,Smart Rotate Pointer,3D Task,3D Cube Translation,2,6.06,6.1,-4.97,-5,21:20:29,21:20:57,28000,0.04,-0.03,0.05
+11,Smart Tilt Pointer,3D Task,3D Cube Translation,1,1.13,1.3,-5.32,-5.3,21:46:51,21:47:23,32208,0.17,0.02,0.171172428
+11,Smart Tilt Pointer,3D Task,3D Cube Translation,2,8.24,8.16,-1.79,-1.8,21:47:23,21:47:54,31000,-0.08,-0.01,0.080622577
+11,Smart Trackball,3D Task,3D Cube Translation,1,-1.65,3,-2.63,1.46,22:00:56,22:01:38,41158,4.65,4.09,6.192786126
+11,Smart Trackball,3D Task,3D Cube Translation,2,16.62,4.42,1.57,-0.32,22:01:46,22:02:27,41235,-12.2,-1.89,3.34552956
+11,Smart Trackpad,3D Task,3D Cube Translation,1,0.83,0.96,-5.29,-5.26,22:14:30,22:15:03,33126,0.13,0.03,0.133416641
+11,Smart Trackpad,3D Task,3D Cube Translation,2,4.9,5.14,-4.04,-3.86,22:15:21,22:15:50,29096,0.24,0.18,0.3
+12,Smart Trackball,3D Task,3D Cube Translation,1,2.5,2.65,8.53,8.5,22:33:41,22:34:20,39109,0.15,-0.03,0.152970585
+12,Smart Trackball,3D Task,3D Cube Translation,2,-13.11,-13,9.52,9.65,22:34:30,22:35:06,36011,0.11,0.13,0.170293864
+12,Smart Tilt Pointer,3D Task,3D Cube Translation,1,-10.78,-12.85,-1.64,-0.8,22:58:29,22:59:11,41974,-2.07,0.84,2.233942703
+12,Smart Tilt Pointer,3D Task,3D Cube Translation,2,6.24,5.9,-2.5,-2.46,22:59:11,22:59:52,41121,-0.34,0.04,0.342344855
+12,Smart Rotate Pointer,3D Task,3D Cube Translation,1,-6.04,-9.35,6.96,2.05,23:14:25,23:15:08,42803,-3.31,-4.91,5.921503188
+12,Smart Rotate Pointer,3D Task,3D Cube Translation,2,-4.91,-5.05,3.18,2.95,23:15:14,23:15:57,42689,-0.14,-0.23,0.26925824
+12,Smart Trackpad,3D Task,3D Cube Translation,1,-5.31,-4.95,4.42,4.3,23:32:13,23:32:34,20781,0.36,-0.12,0.379473319
+12,Smart Trackpad,3D Task,3D Cube Translation,2,-7.72,-7.5,3.8,3.6,23:33:03,23:33:22,19401,0.22,-0.2,0.297321375
+12,Smart Trackball,3D Task,3D Cube Translation,1,-2.5,-2.52,-8.53,-8.9,22:33:41,22:34:20,39109,-0.02,-0.37,0.370540146
+12,Smart Trackball,3D Task,3D Cube Translation,2,13.11,12.94,-9.52,-9.8,22:34:30,22:35:06,36011,-0.17,-0.28,0.327566787
+12,Smart Tilt Pointer,3D Task,3D Cube Translation,1,10.78,9.16,1.64,1.62,22:58:29,22:59:11,41974,-1.62,-0.02,1.620123452
+12,Smart Tilt Pointer,3D Task,3D Cube Translation,2,-6.24,-6.25,2.5,2.4,22:59:11,22:59:52,41121,-0.01,-0.1,0.100498756
+12,Smart Rotate Pointer,3D Task,3D Cube Translation,1,6.04,5,-6.96,0,23:14:25,23:15:08,42803,-1.04,6.96,7.037272199
+12,Smart Rotate Pointer,3D Task,3D Cube Translation,2,4.91,0.28,-3.18,-1.49,23:15:14,23:15:57,42689,-4.63,1.69,4.928792956
+12,Smart Trackpad,3D Task,3D Cube Translation,1,5.31,4.8,-4.42,-4.48,23:32:13,23:32:34,20781,-0.51,-0.06,0.513517283
+12,Smart Trackpad,3D Task,3D Cube Translation,2,7.72,7.96,-3.8,-4.18,23:33:03,23:33:22,19401,0.24,-0.38,0.449444101
+13,Smart Trackpad,3D Task,3D Cube Translation,1,-8.05,-8.25,3.67,3.65,18:53:24,18:54:09,45847,-0.2,-0.02,0.200997512
+13,Smart Trackpad,3D Task,3D Cube Translation,2,-0.5,-0.35,5.3,5.05,18:55:03,18:55:46,42988,0.15,-0.25,0.291547595
+13,Smart Rotate Pointer,3D Task,3D Cube Translation,1,-8.24,-8.2,1.79,1.75,19:13:20,19:13:59,39000,0.04,-0.04,0.056568542
+13,Smart Rotate Pointer,3D Task,3D Cube Translation,2,-6.24,-6.25,2.5,2.4,19:14:03,19:14:38,35001,-0.01,-0.1,0.100498756
+13,Smart Tilt Pointer,3D Task,3D Cube Translation,1,2.16,1.32,1.61,1.5,19:30:44,19:31:18,33781,-0.84,-0.11,0.847171765
+13,Smart Tilt Pointer,3D Task,3D Cube Translation,2,6.06,6.2,-4.97,-5,19:31:19,19:31:59,40100,0.14,-0.03,0.143178211
+13,Smart Trackball,3D Task,3D Cube Translation,1,-13.46,-13.6,7.61,7.65,19:48:06,19:48:35,28385,-0.14,0.04,0.145602198
+13,Smart Trackball,3D Task,3D Cube Translation,2,-14.01,-14.2,2.39,2.3,19:49:01,19:49:25,23581,-0.19,-0.09,0.21023796
+13,Smart Trackpad,3D Task,3D Cube Translation,1,8.05,4.94,-3.67,-2.18,18:53:24,18:54:09,45847,-3.11,1.49,3.448506923
+13,Smart Trackpad,3D Task,3D Cube Translation,2,0.5,0.52,-5.3,-5.36,18:55:03,18:55:46,42988,0.02,-0.06,0.063245553
+13,Smart Rotate Pointer,3D Task,3D Cube Translation,1,8.24,8.16,-1.79,-1.8,19:13:20,19:13:59,39000,-0.08,-0.01,0.080622577
+13,Smart Rotate Pointer,3D Task,3D Cube Translation,2,6.24,5.9,-2.5,-2.46,19:14:03,19:14:38,35001,-0.34,0.04,0.342344855
+13,Smart Tilt Pointer,3D Task,3D Cube Translation,1,-2.16,-5,-1.61,0,19:30:44,19:31:18,33781,-2.84,1.61,3.2646133
+13,Smart Tilt Pointer,3D Task,3D Cube Translation,2,-6.06,-6.02,4.97,4.82,19:31:19,19:31:59,40100,0.04,-0.15,0.155241747
+13,Smart Trackball,3D Task,3D Cube Translation,1,13.46,13.58,-7.61,-7.28,19:48:06,19:48:35,28385,0.12,0.33,0.351140997
+13,Smart Trackball,3D Task,3D Cube Translation,2,14.01,14.04,-2.39,-2.44,19:49:01,19:49:25,23581,0.03,-0.05,0.058309519
+14,Smart Tilt Pointer,3D Task,3D Cube Translation,1,-6.6,-6.45,1.82,1.8,3:02:29,3:02:56,27076,0.15,-0.02,0.15132746
+14,Smart Tilt Pointer,3D Task,3D Cube Translation,2,-1.55,-1.5,3.19,3.3,3:03:17,3:03:42,25210,0.05,0.11,0.12083046
+14,Smart Trackball,3D Task,3D Cube Translation,1,-1.02,-0.85,-1.05,-1.05,3:29:11,3:29:46,35459,0.17,0,0.17
+14,Smart Trackball,3D Task,3D Cube Translation,2,-9.79,-9.9,1.01,1.15,3:30:02,3:30:30,1380,-0.11,0.14,0.178044938
+14,Smart Rotate Pointer,3D Task,3D Cube Translation,1,-2.53,-2.4,4.63,4.75,3:44:57,3:45:28,31311,0.13,0.12,0.17691806
+14,Smart Rotate Pointer,3D Task,3D Cube Translation,2,-1.38,-1.25,0.5,0.55,3:45:44,3:46:03,18575,0.13,0.05,0.139283883
+14,Smart Trackpad,3D Task,3D Cube Translation,1,0.09,0.75,5.71,5.4,4:01:19,4:01:49,30445,0.66,-0.31,0.729177619
+14,Smart Trackpad,3D Task,3D Cube Translation,2,-2.93,-3.05,5.22,5.3,4:01:49,4:02:32,43000,-0.12,0.08,0.144222051
+14,Smart Tilt Pointer,3D Task,3D Cube Translation,1,6.6,6.58,-1.82,-1.76,3:02:29,3:02:56,27076,-0.02,0.06,0.063245553
+14,Smart Tilt Pointer,3D Task,3D Cube Translation,2,1.55,1.38,-3.19,-3.2,3:03:17,3:03:42,25210,-0.17,-0.01,0.170293864
+14,Smart Trackball,3D Task,3D Cube Translation,1,1.02,1.02,1.05,1.22,3:29:11,3:29:46,35459,0,0.17,0.17
+14,Smart Trackball,3D Task,3D Cube Translation,2,9.79,9.7,-1.01,-0.98,3:30:02,3:30:30,1380,-0.09,0.03,0.09486833
+14,Smart Rotate Pointer,3D Task,3D Cube Translation,1,2.53,2.5,-4.63,-4.86,3:44:57,3:45:28,31311,-0.03,-0.23,0.23194827
+14,Smart Rotate Pointer,3D Task,3D Cube Translation,2,1.38,1.48,-0.5,-0.44,3:45:44,3:46:03,18575,0.1,0.06,0.116619038
+14,Smart Trackpad,3D Task,3D Cube Translation,1,-0.09,-0.32,-5.71,-5.5,4:01:19,4:01:49,30445,-0.23,0.21,0.31144823
+14,Smart Trackpad,3D Task,3D Cube Translation,2,2.93,3.04,-5.22,-5.44,4:01:49,4:02:32,43000,0.11,-0.22,0.245967478
+15,Smart Tilt Pointer,3D Task,3D Cube Translation,1,-8.71,-8.95,1.92,2.05,20:26:26,20:26:54,27939,-0.24,0.13,0.272946881
+15,Smart Tilt Pointer,3D Task,3D Cube Translation,2,1.33,1.25,-1.3,-1.15,20:27:09,20:27:25,15074,-0.08,0.15,0.17
+15,Smart Trackpad,3D Task,3D Cube Translation,1,-7.46,-7.5,1.43,1.4,20:38:00,20:38:17,16461,-0.04,-0.03,0.05
+15,Smart Trackpad,3D Task,3D Cube Translation,2,-3.76,-3.7,2.88,2.85,20:38:17,20:39:02,15220,0.06,-0.03,0.067082039
+15,Smart Rotate Pointer,3D Task,3D Cube Translation,1,-2.15,-2.2,6.66,6.45,20:49:03,20:49:37,33232,-0.05,-0.21,0.215870331
+15,Smart Rotate Pointer,3D Task,3D Cube Translation,2,-7.74,-7.65,-1.67,-1.5,20:49:54,20:50:33,39334,0.09,0.17,0.192353841
+15,Smart Trackball,3D Task,3D Cube Translation,1,-8.25,-8.4,0.14,0.1,21:01:36,21:01:47,11370,-0.15,-0.04,0.155241747
+15,Smart Trackball,3D Task,3D Cube Translation,2,-2.01,-2.05,1.57,1.55,21:02:21,21:02:34,12223,-0.04,-0.02,0.04472136
+15,Smart Tilt Pointer,3D Task,3D Cube Translation,1,8.71,8.04,-1.92,-1.96,20:26:26,20:26:54,27939,-0.67,-0.04,0.671192968
+15,Smart Tilt Pointer,3D Task,3D Cube Translation,2,-1.33,-1.42,1.3,1.24,20:27:09,20:27:25,15074,-0.09,-0.06,0.108166538
+15,Smart Trackpad,3D Task,3D Cube Translation,1,7.46,7.3,-1.43,-1.52,20:38:00,20:38:17,16461,-0.16,-0.09,0.183575598
+15,Smart Trackpad,3D Task,3D Cube Translation,2,3.76,3.82,-2.88,-3.06,20:38:17,20:39:02,15220,0.06,-0.18,0.18973666
+15,Smart Rotate Pointer,3D Task,3D Cube Translation,1,2.15,2.22,-6.66,-6.68,20:49:03,20:49:37,33232,0.07,-0.02,0.072801099
+15,Smart Rotate Pointer,3D Task,3D Cube Translation,2,7.74,7.56,1.67,1.88,20:49:54,20:50:33,39334,-0.18,0.21,0.276586334
+15,Smart Trackball,3D Task,3D Cube Translation,1,8.25,8.3,-0.14,-0.22,21:01:36,21:01:47,11370,0.05,-0.08,0.094339811
+15,Smart Trackball,3D Task,3D Cube Translation,2,2.01,1.98,-1.57,-1.7,21:02:21,21:02:34,12223,-0.03,-0.13,0.133416641

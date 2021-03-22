@@ -1,0 +1,61 @@
+Participant,Condition,Score,Mental_Demand,Physical_Demand,Frustration_level,Effort_level,Performance_level,overall_workload
+1,Smart Trackpad,1,1,1,1,1,1,3
+1,Smart Trackball,2,1,1,1,1,3,1
+1,Smart Tilt Pointer,3,2,2,1,2,2,5
+1,Smart Rotate Pointer,4,1,1,1,2,1,4
+2,Smart Trackpad,1,1,1,1,1,3,1
+2,Smart Trackball,2,1,1,1,1,3,1
+2,Smart Tilt Pointer,3,2,2,2,2,2,6
+2,Smart Rotate Pointer,4,1,3,2,3,2,7
+3,Smart Trackpad,1,1,1,1,1,3,1
+3,Smart Trackball,2,1,1,1,1,3,1
+3,Smart Tilt Pointer,3,2,2,2,2,3,5
+3,Smart Rotate Pointer,4,2,3,3,3,2,9
+4,Smart Trackpad,1,1,1,1,2,4,1
+4,Smart Trackball,2,1,1,1,1,3,1
+4,Smart Tilt Pointer,3,2,2,2,2,3,5
+4,Smart Rotate Pointer,4,3,3,3,3,2,10
+5,Smart Trackpad,1,2,1,1,2,4,2
+5,Smart Trackball,2,2,1,1,1,3,2
+5,Smart Tilt Pointer,3,2,2,2,2,3,5
+5,Smart Rotate Pointer,4,3,3,3,3,2,10
+6,Smart Trackpad,1,2,2,2,2,4,4
+6,Smart Trackball,2,2,1,1,2,3,3
+6,Smart Tilt Pointer,3,3,2,2,2,3,6
+6,Smart Rotate Pointer,4,3,4,3,3,3,10
+7,Smart Trackpad,1,2,2,2,2,4,4
+7,Smart Trackball,3,2,2,1,2,4,3
+7,Smart Tilt Pointer,4,3,2,2,3,3,7
+7,Smart Rotate Pointer,2,3,4,3,3,3,10
+8,Smart Trackpad,3,2,2,2,2,4,4
+8,Smart Trackball,4,2,2,2,2,4,4
+8,Smart Tilt Pointer,1,3,3,3,3,4,8
+8,Smart Rotate Pointer,2,4,4,4,4,3,13
+9,Smart Trackpad,3,3,2,2,2,4,5
+9,Smart Trackball,1,3,2,2,2,4,5
+9,Smart Tilt Pointer,2,3,3,3,3,4,8
+9,Smart Rotate Pointer,4,4,4,3,4,3,12
+10,Smart Trackpad,3,3,2,2,3,4,6
+10,Smart Trackball,1,3,2,2,3,4,6
+10,Smart Tilt Pointer,2,3,3,3,3,4,8
+10,Smart Rotate Pointer,4,4,4,3,4,3,12
+11,Smart Trackpad,3,3,2,3,3,4,7
+11,Smart Trackball,1,3,3,3,3,5,7
+11,Smart Tilt Pointer,2,4,3,3,4,4,10
+11,Smart Rotate Pointer,4,4,4,4,4,4,12
+12,Smart Trackpad,2,3,3,3,3,5,7
+12,Smart Trackball,1,3,3,3,3,5,7
+12,Smart Tilt Pointer,3,4,4,4,4,4,12
+12,Smart Rotate Pointer,4,4,5,4,4,4,13
+13,Smart Trackpad,2,3,3,3,4,5,8
+13,Smart Trackball,1,3,3,3,3,5,7
+13,Smart Tilt Pointer,3,4,4,4,4,4,12
+13,Smart Rotate Pointer,4,4,5,4,5,4,14
+14,Smart Trackpad,2,4,3,4,4,5,10
+14,Smart Trackball,1,3,4,4,4,5,10
+14,Smart Tilt Pointer,3,4,4,4,4,4,12
+14,Smart Rotate Pointer,4,5,5,5,5,4,16
+15,Smart Trackpad,2,5,5,4,4,5,13
+15,Smart Trackball,1,4,5,4,4,5,12
+15,Smart Tilt Pointer,4,5,4,5,4,4,14
+15,Smart Rotate Pointer,3,5,5,5,5,5,15

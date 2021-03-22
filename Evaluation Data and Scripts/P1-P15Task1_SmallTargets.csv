@@ -1,0 +1,431 @@
+Participant,Condition,Block,Task,Trial,Target.x,Target.y,Targetsize.b,Targetsize.l,Target Area,MousePositions.x,MousePositions.y,Error.x,Error.y,Euclidean_distance_error,,Error_count,Target_count,Target Area
+1,Smart Trackpad,2D Task,2D Target Selection Task,1,923,311,23,100,2300,71,55,0,0,0,,0,1,900
+1,Smart Trackpad,2D Task,2D Target Selection Task,3,74,10,42,120,5040,30,50,0,0,0,,0,1,1050
+1,Smart Trackpad,2D Task,2D Target Selection Task,4,364,195,85,35,2975,60,231,0,0,0,,0,1,1080
+1,Smart Trackpad,2D Task,2D Target Selection Task,6,441,155,62,34,2108,24,71,0,0,0,,0,1,1155
+1,Smart Trackpad,2D Task,2D Target Selection Task,7,790,159,127,47,5969,562,338,0,,0,,0,1,1184
+1,Smart Trackpad,2D Task,2D Target Selection Task,8,753,98,59,34,2006,33,26,0,0,0,,0,1,1216
+1,Smart Trackpad,2D Task,2D Target Selection Task,9,531,23,127,49,6223,41,10,0,0,0,,0,1,1221
+1,Smart Trackpad,2D Task,2D Target Selection Task,11,87,6,32,106,3392,22,79,0,0,0,,0,1,1386
+1,Smart Trackpad,2D Task,2D Target Selection Task,13,162,113,62,87,5394,148,347,17,23,349.4810438,,1,1,1440
+1,Smart Rotate Pointer,2D Task,2D Target Selection Task,1,147,165,38,66,2508,17,57,0,0,0,,0,1,1440
+1,Smart Rotate Pointer,2D Task,2D Target Selection Task,2,84,83,78,45,3510,18,25,0,0,0,,0,1,1444
+1,Smart Rotate Pointer,2D Task,2D Target Selection Task,3,254,290,30,36,1080,82,4,0,0,0,,0,1,1452
+1,Smart Rotate Pointer,2D Task,2D Target Selection Task,4,274,182,86,31,2666,70,2,0,0,0,,1,1,1470
+1,Smart Rotate Pointer,2D Task,2D Target Selection Task,5,76,229,91,35,3185,2,7,0,0,0,,1,1,1470
+1,Smart Tilt Pointer,2D Task,2D Target Selection Task,1,112,340,41,47,1927,14,44,0,0,0,,1,1,1504
+1,Smart Tilt Pointer,2D Task,2D Target Selection Task,2,569,80,86,40,3440,50,33,0,0,0,,1,1,1504
+1,Smart Tilt Pointer,2D Task,2D Target Selection Task,5,24,81,31,126,3906,12,111,0,0,0,,1,1,1558
+1,Smart Tilt Pointer,2D Task,2D Target Selection Task,6,886,92,40,46,1840,22,27,0,0,0,,0,1,1560
+1,Smart Tilt Pointer,2D Task,2D Target Selection Task,7,334,177,110,34,3740,106,32,0,0,0,,0,1,1575
+1,Smart Trackball,2D Task,2D Target Selection Task,1,178,173,33,42,1386,30,34,0,0,0,,0,1,1590
+1,Smart Trackball,2D Task,2D Target Selection Task,3,568,41,61,46,2806,61,40,0,0,0,,0,1,1620
+1,Smart Trackball,2D Task,2D Target Selection Task,5,1028,220,81,43,3483,84,89,0,0,0,,0,1,1677
+1,Smart Trackball,2D Task,2D Target Selection Task,6,859,333,56,97,5432,52,80,0,0,0,,0,1,1702
+1,Smart Trackball,2D Task,2D Target Selection Task,12,457,119,46,119,5474,55,80,0,0,0,,0,1,1806
+1,Smart Trackball,2D Task,2D Target Selection Task,13,96,299,63,59,3717,25,35,0,0,0,,0,1,1840
+2,Smart Trackball,2D Task,2D Target Selection Task,1,155,150,40,85,3400,25,63,0,0,0,,0,1,1872
+2,Smart Trackball,2D Task,2D Target Selection Task,2,675,290,71,44,3124,33,25,0,0,0,,0,1,1914
+2,Smart Trackball,2D Task,2D Target Selection Task,3,47,119,55,56,3080,36,14,0,0,0,,0,1,1920
+2,Smart Trackball,2D Task,2D Target Selection Task,4,174,280,108,37,3996,50,4,0,0,0,,0,1,1920
+2,Smart Trackball,2D Task,2D Target Selection Task,5,108,37,116,44,5104,68,35,0,0,0,,0,1,1925
+2,Smart Trackpad,2D Task,2D Target Selection Task,1,493,114,89,41,3649,76,6,0,0,0,,0,1,1927
+2,Smart Trackpad,2D Task,2D Target Selection Task,4,829,189,61,80,4880,31,38,0,0,0,,0,1,1984
+2,Smart Trackpad,2D Task,2D Target Selection Task,6,725,79,31,55,1705,19,41,0,0,0,,0,1,2021
+2,Smart Trackpad,2D Task,2D Target Selection Task,8,362,342,44,100,4400,29,50,0,0,0,,0,1,2030
+2,Smart Tilt Pointer,2D Task,2D Target Selection Task,1,640,258,60,88,5280,55,25,35,13,23.32380758,,1,1,2040
+2,Smart Rotate Pointer,2D Task,2D Target Selection Task,1,108,91,90,34,3060,20,29,0,0,0,,0,1,2080
+2,Smart Rotate Pointer,2D Task,2D Target Selection Task,3,1034,178,42,67,2814,38,531,57,9,522.345671,,1,1,2107
+3,Smart Tilt Pointer,2D Task,2D Target Selection Task,1,965,226,84,40,3360,128,406,24,19,400.7305828,,1,1,2116
+3,Smart Tilt Pointer,2D Task,2D Target Selection Task,6,111,119,97,46,4462,64,33,0,0,0,,0,1,2162
+3,Smart Tilt Pointer,2D Task,2D Target Selection Task,7,191,95,60,101,6060,21,58,0,0,0,,0,1,2162
+3,Smart Tilt Pointer,2D Task,2D Target Selection Task,8,972,330,81,43,3483,76,10,222,341,361.7692635,,1,1,2162
+3,Smart Tilt Pointer,2D Task,2D Target Selection Task,9,630,323,72,44,3168,75,13,261,347,382.2983128,,1,1,2176
+3,Smart Trackball,2D Task,2D Target Selection Task,2,136,288,45,35,1575,70,21,0,0,0,,0,1,2210
+3,Smart Trackball,2D Task,2D Target Selection Task,4,205,124,42,84,3528,69,19,0,0,0,,0,1,2250
+3,Smart Trackball,2D Task,2D Target Selection Task,5,928,220,43,49,2107,31,34,0,0,0,,0,1,2275
+3,Smart Trackball,2D Task,2D Target Selection Task,6,784,118,35,118,4130,26,21,0,0,0,,0,1,2278
+3,Smart Trackball,2D Task,2D Target Selection Task,8,557,59,53,30,1590,45,21,0,0,0,,0,1,2300
+3,Smart Trackball,2D Task,2D Target Selection Task,9,316,6,69,87,6003,48,65,0,0,0,,0,1,2310
+3,Smart Trackball,2D Task,2D Target Selection Task,10,1000,209,82,65,5330,58,0,0,0,0,,0,1,2346
+3,Smart Trackball,2D Task,2D Target Selection Task,11,269,37,93,41,3813,29,50,0,0,0,,0,1,2379
+3,Smart Trackpad,2D Task,2D Target Selection Task,1,996,246,46,74,3404,39,32,35,13,19.41648784,,1,1,2394
+3,Smart Trackpad,2D Task,2D Target Selection Task,4,282,348,116,36,4176,83,12,0,0,0,,0,1,2405
+3,Smart Trackpad,2D Task,2D Target Selection Task,6,362,94,42,81,3402,24,60,0,0,0,,0,1,2420
+3,Smart Trackpad,2D Task,2D Target Selection Task,7,911,325,51,92,4692,35,41,0,0,0,,0,1,2432
+3,Smart Trackpad,2D Task,2D Target Selection Task,11,259,77,38,123,4674,7,73,20,38,37.33630941,,1,1,2520
+3,Smart Trackpad,2D Task,2D Target Selection Task,12,613,273,77,49,3773,38,38,0,0,0,,0,1,2528
+3,Smart Trackpad,2D Task,2D Target Selection Task,13,42,316,80,70,5600,48,48,0,0,0,,0,1,2537
+3,Smart Trackpad,2D Task,2D Target Selection Task,18,420,60,72,74,5328,59,20,14,7,46.84015371,,1,1,2660
+3,Smart Rotate Pointer,2D Task,2D Target Selection Task,1,662,205,38,88,3344,6,22,0,0,0,,0,1,2666
+3,Smart Rotate Pointer,2D Task,2D Target Selection Task,5,936,305,44,82,3608,36,29,0,0,0,,0,1,2736
+3,Smart Rotate Pointer,2D Task,2D Target Selection Task,7,119,176,54,90,4860,11,25,0,0,0,,0,1,2769
+3,Smart Rotate Pointer,2D Task,2D Target Selection Task,8,631,43,37,62,2294,22,34,6,10,28.8444102,,1,1,2772
+4,Smart Trackball,2D Task,2D Target Selection Task,1,468,342,75,46,3450,73,20,0,0,0,,0,1,2772
+4,Smart Trackball,2D Task,2D Target Selection Task,2,246,156,115,33,3795,94,26,0,0,0,,0,1,2773
+4,Smart Trackball,2D Task,2D Target Selection Task,5,917,255,39,43,1677,43,39,0,0,0,,0,1,2806
+4,Smart Trackball,2D Task,2D Target Selection Task,6,78,166,63,96,6048,17,26,0,0,0,,0,1,2814
+4,Smart Trackball,2D Task,2D Target Selection Task,11,227,263,47,118,5546,70,28,0,0,0,,0,1,2886
+4,Smart Trackball,2D Task,2D Target Selection Task,13,616,257,47,92,4324,58,23,0,0,0,,0,1,2920
+4,Smart Trackball,2D Task,2D Target Selection Task,15,791,201,30,35,1050,15,62,77,18,76.02631123,,1,1,2975
+4,Smart Trackball,2D Task,2D Target Selection Task,16,779,7,130,33,4290,12,30,0,0,0,,0,1,3007
+4,Smart Trackball,2D Task,2D Target Selection Task,17,471,217,58,91,5278,28,19,0,0,0,,0,1,3030
+4,Smart Trackball,2D Task,2D Target Selection Task,18,513,320,124,42,5208,52,35,0,0,0,,0,1,3040
+4,Smart Trackball,2D Task,2D Target Selection Task,21,726,254,76,36,2736,86,27,0,0,0,,0,1,3082
+4,Smart Trackball,2D Task,2D Target Selection Task,23,910,139,64,59,3776,31,14,0,0,0,,0,1,3104
+4,Smart Trackball,2D Task,2D Target Selection Task,26,1,139,58,35,2030,45,14,0,0,0,,0,1,3120
+4,Smart Trackball,2D Task,2D Target Selection Task,27,431,17,34,84,2856,544,373,0,0,0,,0,1,3124
+4,Smart Trackball,2D Task,2D Target Selection Task,28,330,105,50,98,4900,42,74,0,0,0,,0,1,3132
+4,Smart Trackball,2D Task,2D Target Selection Task,29,450,215,115,32,3680,4,30,0,0,0,,0,1,3132
+4,Smart Trackpad,2D Task,2D Target Selection Task,1,623,13,43,98,4214,24,81,0,0,0,,0,1,3136
+4,Smart Trackpad,2D Task,2D Target Selection Task,2,639,210,51,125,6375,50,22,0,0,0,,0,1,3154
+4,Smart Trackpad,2D Task,2D Target Selection Task,4,756,79,42,105,4410,23,68,0,0,0,,0,1,3168
+4,Smart Trackpad,2D Task,2D Target Selection Task,5,632,73,32,68,2176,24,43,0,0,0,,0,1,3185
+4,Smart Trackpad,2D Task,2D Target Selection Task,6,129,65,65,63,4095,17,5,0,0,0,,0,1,3186
+4,Smart Trackpad,2D Task,2D Target Selection Task,8,602,14,72,49,3528,103,150,0,0,0,,0,1,3198
+4,Smart Trackpad,2D Task,2D Target Selection Task,10,242,32,36,40,1440,57,21,0,0,0,,0,1,3230
+4,Smart Trackpad,2D Task,2D Target Selection Task,11,615,4,74,60,4440,24,34,0,0,0,,0,1,3234
+4,Smart Trackpad,2D Task,2D Target Selection Task,15,386,1,38,96,3648,62,47,0,0,0,,0,1,3312
+4,Smart Trackpad,2D Task,2D Target Selection Task,18,701,155,63,56,3528,68,31,0,0,0,,0,1,3332
+4,Smart Trackpad,2D Task,2D Target Selection Task,20,326,77,57,68,3876,25,47,0,0,0,,0,1,3344
+4,Smart Trackpad,2D Task,2D Target Selection Task,21,828,260,38,88,3344,27,60,0,0,0,,0,1,3344
+4,Smart Trackpad,2D Task,2D Target Selection Task,23,612,185,36,40,1440,28,57,0,0,0,,0,1,3344
+4,Smart Rotate Pointer,2D Task,2D Target Selection Task,1,962,344,46,106,4876,280,418,5,37,469.8787078,,1,1,3392
+4,Smart Rotate Pointer,2D Task,2D Target Selection Task,2,130,260,94,50,4700,26,35,0,0,0,,0,1,3392
+4,Smart Rotate Pointer,2D Task,2D Target Selection Task,3,447,298,39,88,3432,150,421,23,62,380.8017857,,1,1,3400
+4,Smart Rotate Pointer,2D Task,2D Target Selection Task,4,940,203,42,83,3486,6,56,0,0,0,,0,1,3400
+4,Smart Rotate Pointer,2D Task,2D Target Selection Task,8,237,199,103,58,5974,44,11,0,0,0,,0,1,3432
+4,Smart Rotate Pointer,2D Task,2D Target Selection Task,10,620,315,36,100,3600,84,36,0,0,0,,0,1,3450
+4,Smart Rotate Pointer,2D Task,2D Target Selection Task,13,754,278,54,85,4590,17,59,0,0,0,,0,1,3480
+4,Smart Rotate Pointer,2D Task,2D Target Selection Task,15,87,221,55,72,3960,23,32,55,84,61.05735009,,1,1,3483
+4,Smart Rotate Pointer,2D Task,2D Target Selection Task,16,145,306,63,89,5607,90,33,0,0,0,,0,1,3483
+4,Smart Rotate Pointer,2D Task,2D Target Selection Task,17,319,22,58,34,1972,30,11,0,0,0,,0,1,3483
+4,Smart Rotate Pointer,2D Task,2D Target Selection Task,18,504,58,75,55,4125,15,39,14,7,32.01562119,,1,1,3486
+4,Smart Tilt Pointer,2D Task,2D Target Selection Task,1,894,256,45,32,1440,24,12,0,0,0,,0,1,3531
+4,Smart Tilt Pointer,2D Task,2D Target Selection Task,2,424,298,40,52,2080,10,37,0,0,0,,0,1,3564
+4,Smart Tilt Pointer,2D Task,2D Target Selection Task,4,880,159,46,86,3956,4,38,0,0,0,,0,1,3600
+4,Smart Tilt Pointer,2D Task,2D Target Selection Task,9,715,187,61,40,2440,36,16,0,0,0,,0,1,3636
+4,Smart Tilt Pointer,2D Task,2D Target Selection Task,10,1002,245,38,89,3382,8,50,0,0,0,,0,1,3648
+4,Smart Tilt Pointer,2D Task,2D Target Selection Task,11,1014,275,109,55,5995,7,38,0,0,0,,0,1,3649
+5,Smart Tilt Pointer,2D Task,2D Target Selection Task,1,477,59,36,106,3816,26,65,0,0,0,,0,1,3680
+5,Smart Tilt Pointer,2D Task,2D Target Selection Task,2,708,72,33,129,4257,16,54,5,1,54.12947441,,1,1,3690
+5,Smart Tilt Pointer,2D Task,2D Target Selection Task,4,678,191,63,43,2709,35,49,0,0,0,,0,1,3717
+5,Smart Trackpad,2D Task,2D Target Selection Task,2,700,41,40,52,2080,115,54,0,0,0,,0,1,3738
+5,Smart Trackpad,2D Task,2D Target Selection Task,4,254,156,67,34,2278,44,77,0,0,0,,0,1,3760
+5,Smart Trackpad,2D Task,2D Target Selection Task,8,562,319,83,46,3818,81,56,0,0,0,,0,1,3795
+5,Smart Trackball,2D Task,2D Target Selection Task,3,425,269,100,44,4400,32,12,0,0,0,,0,1,3815
+5,Smart Trackball,2D Task,2D Target Selection Task,4,920,218,52,30,1560,45,57,29,33,28.8444102,,1,1,3816
+5,Smart Trackball,2D Task,2D Target Selection Task,6,868,155,37,122,4514,20,22,76,19,56.08029957,,1,1,3822
+5,Smart Trackball,2D Task,2D Target Selection Task,8,533,179,104,47,4888,23,16,0,0,0,,0,1,3825
+5,Smart Trackball,2D Task,2D Target Selection Task,10,450,261,46,88,4048,50,31,9,45,43.32435804,,1,1,3875
+5,Smart Trackball,2D Task,2D Target Selection Task,11,662,194,97,31,3007,74,3,35,84,89.89994438,,1,1,3875
+5,Smart Trackball,2D Task,2D Target Selection Task,12,46,239,47,93,4371,23,33,0,0,0,,0,1,3876
+5,Smart Rotate Pointer,2D Task,2D Target Selection Task,6,978,255,85,48,4080,39,11,389,302,455.1713963,,1,1,4736
+6,Smart Tilt Pointer,2D Task,2D Target Selection Task,1,411,344,46,105,4830,176,331,4,25,351.0270645,,1,1,3900
+6,Smart Tilt Pointer,2D Task,2D Target Selection Task,3,753,328,66,35,2310,59,22,0,0,0,,0,1,3936
+6,Smart Tilt Pointer,2D Task,2D Target Selection Task,5,844,289,66,42,2772,176,461,14,15,474.5102739,377,1,1,3956
+6,Smart Tilt Pointer,2D Task,2D Target Selection Task,6,909,24,46,113,5198,167,315,41,42,300.6742423,,1,1,3960
+6,Smart Tilt Pointer,2D Task,2D Target Selection Task,8,958,59,40,73,2920,19,59,0,0,0,,0,1,4032
+6,Smart Tilt Pointer,2D Task,2D Target Selection Task,9,524,245,41,110,4510,19,89,0,0,0,,0,1,4042
+6,Smart Rotate Pointer,2D Task,2D Target Selection Task,1,887,134,35,76,2660,45,67,0,0,0,,0,1,4048
+6,Smart Rotate Pointer,2D Task,2D Target Selection Task,2,850,217,47,87,4089,132,323,31,97,247.5419156,,1,1,4070
+6,Smart Rotate Pointer,2D Task,2D Target Selection Task,4,918,274,86,44,3784,104,474,49,40,437.4711419,,1,1,4089
+6,Smart Rotate Pointer,2D Task,2D Target Selection Task,5,346,255,43,111,4773,50,422,0,0,0,,0,1,4092
+6,Smart Rotate Pointer,2D Task,2D Target Selection Task,6,987,111,48,93,4464,166,331,36,39,319.6310373,,1,1,4095
+6,Smart Rotate Pointer,2D Task,2D Target Selection Task,7,98,43,51,99,5049,157,302,0,0,0,,1,1,4104
+6,Smart Rotate Pointer,2D Task,2D Target Selection Task,8,132,86,59,83,4897,39,63,0,0,0,,1,1,4104
+6,Smart Rotate Pointer,2D Task,2D Target Selection Task,11,537,123,37,121,4477,150,366,26,14,373.202358,,1,1,4130
+6,Smart Trackpad,2D Task,2D Target Selection Task,2,491,3,76,32,2432,24,14,0,0,0,,0,1,4176
+6,Smart Trackpad,2D Task,2D Target Selection Task,3,693,320,92,61,5612,64,27,0,0,0,,0,1,4176
+6,Smart Trackpad,2D Task,2D Target Selection Task,10,688,108,35,64,2240,84,350,0,0,0,,0,1,4280
+6,Smart Trackpad,2D Task,2D Target Selection Task,11,115,234,38,71,2698,17,41,0,0,0,,0,1,4290
+6,Smart Trackpad,2D Task,2D Target Selection Task,13,240,305,66,42,2772,13,31,0,0,0,,0,1,4292
+6,Smart Trackpad,2D Task,2D Target Selection Task,14,545,203,38,122,4636,10,100,192,321,286.2953021,,1,1,4316
+6,Smart Trackball,2D Task,2D Target Selection Task,1,866,325,49,30,1470,86,377,506,103,501.4738278,,1,1,4324
+6,Smart Trackball,2D Task,2D Target Selection Task,2,88,73,103,53,5459,83,384,0,0,0,,0,1,4352
+6,Smart Trackball,2D Task,2D Target Selection Task,3,843,260,82,62,5084,16,14,0,0,0,,0,1,4371
+6,Smart Trackball,2D Task,2D Target Selection Task,4,440,116,52,97,5044,23,31,29,33,6.32455532,,1,1,4392
+6,Smart Trackball,2D Task,2D Target Selection Task,5,71,188,43,123,5289,28,34,7,76,46.95742753,,1,1,4400
+6,Smart Trackball,2D Task,2D Target Selection Task,6,535,18,77,62,4774,19,102,30,4,98.61541462,,1,1,4400
+7,Smart Trackball,2D Task,2D Target Selection Task,3,850,97,109,48,5232,56,71,0,0,0,,0,1,4462
+7,Smart Trackball,2D Task,2D Target Selection Task,4,578,152,36,80,2880,44,310,0,0,0,,0,1,4464
+7,Smart Trackball,2D Task,2D Target Selection Task,5,840,136,76,40,3040,35,43,0,0,0,,0,1,4477
+7,Smart Trackball,2D Task,2D Target Selection Task,6,509,1,50,78,3900,76,259,0,0,0,,0,1,4477
+7,Smart Trackball,2D Task,2D Target Selection Task,8,95,226,67,46,3082,11,14,0,0,0,,0,1,4485
+7,Smart Trackball,2D Task,2D Target Selection Task,12,130,2,49,49,2401,30,54,0,0,0,,0,1,4494
+7,Smart Trackball,2D Task,2D Target Selection Task,17,135,220,94,66,6204,30,44,0,0,0,,0,1,4543
+7,Smart Trackball,2D Task,2D Target Selection Task,20,637,266,87,36,3132,67,14,0,0,0,,0,1,4560
+7,Smart Trackball,2D Task,2D Target Selection Task,21,211,35,81,72,5832,51,52,0,0,0,,0,1,4563
+7,Smart Trackball,2D Task,2D Target Selection Task,22,946,256,34,69,2346,15,38,0,0,0,,0,1,4572
+7,Smart Trackball,2D Task,2D Target Selection Task,23,1026,133,42,69,2898,28,24,0,0,0,,0,1,4590
+7,Smart Trackball,2D Task,2D Target Selection Task,24,445,329,73,82,5986,47,48,0,0,0,,0,1,4636
+7,Smart Trackball,2D Task,2D Target Selection Task,28,736,319,94,36,3384,127,333,76,0,336.8827689,,1,1,4700
+7,Smart Trackball,2D Task,2D Target Selection Task,29,807,326,68,32,2176,376,368,44,15,484.5957078,,1,1,4704
+7,Smart Rotate Pointer,2D Task,2D Target Selection Task,2,993,10,51,53,2703,44,55,0,0,0,,1,1,4725
+7,Smart Rotate Pointer,2D Task,2D Target Selection Task,3,301,16,82,70,5740,43,20,0,0,0,,1,1,4730
+7,Smart Rotate Pointer,2D Task,2D Target Selection Task,6,978,255,85,48,4080,39,11,389,302,455.1713963,,1,1,4736
+7,Smart Rotate Pointer,2D Task,2D Target Selection Task,7,643,330,92,53,4876,51,3,0,0,0,,0,1,4752
+7,Smart Tilt Pointer,2D Task,2D Target Selection Task,1,561,228,34,63,2142,12,35,0,0,0,,0,1,4773
+7,Smart Tilt Pointer,2D Task,2D Target Selection Task,2,740,72,67,74,4958,52,36,0,0,0,,0,1,4774
+7,Smart Tilt Pointer,2D Task,2D Target Selection Task,4,233,281,58,74,4292,49,31,246,388,407.7474709,,1,1,4796
+7,Smart Tilt Pointer,2D Task,2D Target Selection Task,8,687,28,107,40,4280,76,19,198,185,206.0097085,,1,1,4872
+7,Smart Tilt Pointer,2D Task,2D Target Selection Task,9,144,164,35,95,3325,80,351,0,0,0,,0,1,4876
+7,Smart Trackpad,2D Task,2D Target Selection Task,1,242,49,40,112,4480,712,431,0,0,0,,0,1,4880
+7,Smart Trackpad,2D Task,2D Target Selection Task,3,183,29,44,33,1452,38,55,0,0,0,,0,1,4897
+7,Smart Trackpad,2D Task,2D Target Selection Task,4,522,74,48,109,5232,12,68,17,31,37.33630941,,1,1,4900
+7,Smart Trackpad,2D Task,2D Target Selection Task,5,332,117,36,127,4572,65,40,73,466,426.0751107,,1,1,4914
+7,Smart Trackpad,2D Task,2D Target Selection Task,6,453,3,86,55,4730,32,456,0,0,0,,0,1,4928
+7,Smart Trackpad,2D Task,2D Target Selection Task,7,878,198,108,51,5508,29,67,32,3,64.07027392,,1,1,4950
+7,Smart Trackpad,2D Task,2D Target Selection Task,12,188,237,30,120,3600,25,43,507,10,483.1283473,,1,1,4998
+7,Smart Trackpad,2D Task,2D Target Selection Task,13,795,298,74,55,4070,557,367,21,12,642.9004589,,1,1,5029
+7,Smart Trackpad,2D Task,2D Target Selection Task,14,289,262,95,54,5130,80,4,0,0,0,,0,1,5040
+7,Smart Trackpad,2D Task,2D Target Selection Task,18,917,275,116,43,4988,90,42,0,0,0,,0,1,5049
+7,Smart Trackpad,2D Task,2D Target Selection Task,19,506,19,43,59,2537,75,40,0,0,0,,0,1,5084
+7,Smart Trackpad,2D Task,2D Target Selection Task,22,1037,188,101,41,4141,29,62,196,301,291.5647441,,1,1,5120
+7,Smart Trackpad,2D Task,2D Target Selection Task,25,156,229,100,34,3400,92,23,583,326,576.9662035,,1,1,5150
+7,Smart Trackpad,2D Task,2D Target Selection Task,29,629,266,32,109,3488,25,27,80,366,343.4326717,,1,1,5208
+8,Smart Trackball,2D Task,2D Target Selection Task,1,263,59,43,81,3483,34,36,0,0,0,,0,1,5232
+8,Smart Trackball,2D Task,2D Target Selection Task,5,585,126,34,65,2210,28,30,0,0,0,,0,1,5278
+8,Smart Trackball,2D Task,2D Target Selection Task,6,943,148,82,34,2788,68,42,0,0,0,,0,1,5280
+8,Smart Trackball,2D Task,2D Target Selection Task,7,56,67,52,32,1664,34,33,0,0,0,,0,1,5289
+8,Smart Trackball,2D Task,2D Target Selection Task,11,113,346,56,107,5992,73,48,4,60,70.03570518,,1,1,5328
+8,Smart Trackball,2D Task,2D Target Selection Task,12,140,85,49,30,1470,34,54,3,61,31.78049716,,1,1,5329
+8,Smart Trackball,2D Task,2D Target Selection Task,13,910,225,47,107,5029,2,42,0,0,0,,0,1,5330
+8,Smart Trackball,2D Task,2D Target Selection Task,16,862,173,42,43,1806,26,18,158,372,377.8094758,,1,1,5400
+8,Smart Trackball,2D Task,2D Target Selection Task,18,156,68,59,54,3186,165,201,0,0,0,,0,1,5432
+8,Smart Trackball,2D Task,2D Target Selection Task,20,827,44,57,96,5472,35,40,0,0,0,,0,1,5460
+8,Smart Trackball,2D Task,2D Target Selection Task,21,439,160,42,60,2520,37,58,0,0,0,,0,1,5472
+8,Smart Tilt Pointer,2D Task,2D Target Selection Task,1,30,248,80,69,5520,11,24,0,0,0,,0,1,5472
+8,Smart Tilt Pointer,2D Task,2D Target Selection Task,2,536,350,70,60,4200,52,28,32,47,27.58622845,,1,1,5474
+8,Smart Tilt Pointer,2D Task,2D Target Selection Task,3,577,282,40,94,3760,19,38,138,461,439.4200724,,1,1,5474
+8,Smart Tilt Pointer,2D Task,2D Target Selection Task,7,716,195,98,34,3332,49,6,155,240,256.8890811,,1,1,5520
+8,Smart Tilt Pointer,2D Task,2D Target Selection Task,8,291,312,38,126,4788,23,22,147,459,454.2521326,,1,1,5520
+8,Smart Tilt Pointer,2D Task,2D Target Selection Task,10,526,224,60,84,5040,17,58,0,0,0,,0,1,5555
+8,Smart Tilt Pointer,2D Task,2D Target Selection Task,11,778,9,67,41,2747,39,28,207,204,243.3105012,,1,1,5600
+8,Smart Rotate Pointer,2D Task,2D Target Selection Task,1,623,8,47,86,4042,27,35,0,0,0,,0,1,5607
+8,Smart Rotate Pointer,2D Task,2D Target Selection Task,2,232,97,52,85,4420,17,52,0,0,0,,0,1,5612
+8,Smart Rotate Pointer,2D Task,2D Target Selection Task,3,921,337,101,42,4242,85,3,0,0,0,,0,1,5612
+8,Smart Trackpad,2D Task,2D Target Selection Task,1,332,7,48,94,4512,29,54,128,203,178.8910283,,1,1,5740
+8,Smart Trackpad,2D Task,2D Target Selection Task,2,488,125,101,30,3030,55,10,166,129,162.73291,,1,1,5750
+8,Smart Trackpad,2D Task,2D Target Selection Task,4,921,159,64,77,4928,12,40,0,0,0,,0,1,5768
+8,Smart Trackpad,2D Task,2D Target Selection Task,6,761,146,83,52,4316,41,36,0,0,0,,0,1,5796
+8,Smart Trackpad,2D Task,2D Target Selection Task,7,277,288,78,80,6240,52,25,0,0,0,,0,1,5828
+8,Smart Trackpad,2D Task,2D Target Selection Task,9,343,130,30,72,2160,22,46,0,0,0,,0,1,5832
+8,Smart Trackpad,2D Task,2D Target Selection Task,10,873,289,123,44,5412,67,21,0,0,0,,0,1,5850
+8,Smart Trackpad,2D Task,2D Target Selection Task,12,178,140,53,70,3710,7,37,142,285,282.3632412,,1,1,5917
+8,Smart Trackpad,2D Task,2D Target Selection Task,13,437,170,46,122,5612,31,86,0,0,0,,0,1,5920
+8,Smart Trackpad,2D Task,2D Target Selection Task,14,465,278,41,44,1804,18,27,113,401,385.8769234,,1,1,5950
+8,Smart Trackpad,2D Task,2D Target Selection Task,15,663,301,118,33,3894,80,4,0,0,0,,0,1,5969
+8,Smart Trackpad,2D Task,2D Target Selection Task,16,193,184,105,48,5040,76,39,0,0,0,,0,1,5974
+9,Smart Tilt Pointer,2D Task,2D Target Selection Task,1,196,33,124,33,4092,74,16,0,0,0,,0,1,5978
+9,Smart Tilt Pointer,2D Task,2D Target Selection Task,2,495,28,32,69,2208,10,44,112,253,232.5618197,,1,1,5980
+9,Smart Tilt Pointer,2D Task,2D Target Selection Task,4,298,175,45,50,2250,12,22,0,0,0,,0,1,5986
+9,Smart Tilt Pointer,2D Task,2D Target Selection Task,6,1049,156,63,55,3465,45,22,0,0,0,,0,1,5992
+9,Smart Tilt Pointer,2D Task,2D Target Selection Task,7,388,341,47,46,2162,25,25,138,393,384.9584393,,1,1,5995
+9,Smart Tilt Pointer,2D Task,2D Target Selection Task,11,427,156,47,32,1504,21,29,108,288,273.2215218,,1,1,6050
+9,Smart Rotate Pointer,2D Task,2D Target Selection Task,2,656,267,47,32,1504,61,20,202,371,378.2618141,,1,1,6060
+9,Smart Rotate Pointer,2D Task,2D Target Selection Task,4,453,223,89,41,3649,51,9,0,0,0,,0,1,6150
+9,Smart Rotate Pointer,2D Task,2D Target Selection Task,5,26,222,57,72,4104,80,48,0,0,0,,0,1,6156
+9,Smart Rotate Pointer,2D Task,2D Target Selection Task,6,772,201,74,39,2886,24,43,128,385,357.4632848,,1,1,6174
+9,Smart Rotate Pointer,2D Task,2D Target Selection Task,8,157,124,44,109,4796,38,32,0,0,0,,0,1,6204
+9,Smart Rotate Pointer,2D Task,2D Target Selection Task,9,963,223,47,59,2773,30,27,0,0,0,,0,1,6223
+9,Smart Rotate Pointer,2D Task,2D Target Selection Task,11,210,146,44,55,2420,48,41,151,282,262.0877716,,1,1,6241
+9,Smart Rotate Pointer,2D Task,2D Target Selection Task,13,296,307,68,54,3672,32,27,0,0,0,,0,1,6391
+9,Smart Rotate Pointer,2D Task,2D Target Selection Task,14,147,25,45,85,3825,101,73,0,0,0,,0,1,6417
+9,Smart Rotate Pointer,2D Task,2D Target Selection Task,18,486,73,36,52,1872,11,25,115,184,189.9921051,,1,1,6440
+9,Smart Rotate Pointer,2D Task,2D Target Selection Task,19,684,272,40,48,1920,72,53,0,0,0,,0,1,6450
+9,Smart Rotate Pointer,2D Task,2D Target Selection Task,20,789,52,37,46,1702,31,36,0,0,0,,0,1,6468
+9,Smart Trackpad,2D Task,2D Target Selection Task,2,992,241,85,70,5950,53,43,13,31,41.76122604,,1,1,6480
+9,Smart Trackpad,2D Task,2D Target Selection Task,5,147,156,60,34,2040,45,33,115,395,368.7058448,,1,1,6498
+9,Smart Trackpad,2D Task,2D Target Selection Task,6,549,12,31,49,1519,36,14,0,0,0,,0,1,6528
+9,Smart Trackpad,2D Task,2D Target Selection Task,7,678,200,52,110,5720,8,44,0,0,0,,0,1,6561
+9,Smart Trackpad,2D Task,2D Target Selection Task,9,92,130,42,89,3738,43,75,867,560,956.1385883,,1,1,6579
+9,Smart Trackball,2D Task,2D Target Selection Task,5,670,198,54,114,6156,27,21,120,330,322.6918034,,1,1,6622
+9,Smart Trackball,2D Task,2D Target Selection Task,6,1015,297,73,39,2847,45,36,0,0,0,,0,1,6625
+9,Smart Trackball,2D Task,2D Target Selection Task,7,765,342,36,97,3492,60,14,0,0,0,,0,1,6636
+9,Smart Trackball,2D Task,2D Target Selection Task,8,655,38,56,56,3136,30,94,0,0,0,,0,1,6660
+9,Smart Trackball,2D Task,2D Target Selection Task,11,630,246,64,30,1920,79,51,0,0,0,,0,1,6695
+9,Smart Trackball,2D Task,2D Target Selection Task,12,49,67,44,81,3564,21,41,0,0,0,,0,1,6696
+9,Smart Trackball,2D Task,2D Target Selection Task,14,892,244,49,102,4998,56,50,0,0,0,,0,1,6750
+10,Smart Rotate Pointer,2D Task,2D Target Selection Task,1,850,119,32,105,3360,62,24,56,60,36.49657518,,1,1,6760
+10,Smart Rotate Pointer,2D Task,2D Target Selection Task,3,762,289,92,36,3312,59,13,117,288,281.0498176,,1,1,6776
+10,Smart Rotate Pointer,2D Task,2D Target Selection Task,4,553,202,76,64,4864,65,52,0,0,0,,0,1,6783
+10,Smart Rotate Pointer,2D Task,2D Target Selection Task,5,338,341,46,47,2162,25,25,138,393,384.9584393,,1,1,6789
+10,Smart Rotate Pointer,2D Task,2D Target Selection Task,6,796,266,76,44,3344,72,27,0,0,0,,0,1,6832
+10,Smart Trackball,2D Task,2D Target Selection Task,2,431,261,110,31,961,24,100,0,0,0,,0,1,6900
+10,Smart Trackball,2D Task,2D Target Selection Task,4,589,328,71,67,4489,78,82,0,0,0,,0,1,6956
+10,Smart Trackball,2D Task,2D Target Selection Task,7,1050,13,95,62,3844,64,42,0,0,0,,0,1,6968
+10,Smart Trackball,2D Task,2D Target Selection Task,10,111,119,97,46,4462,64,33,0,0,0,,0,1,7004
+10,Smart Trackball,2D Task,2D Target Selection Task,11,675,350,57,74,5476,23,33,0,0,0,,0,1,7004
+10,Smart Trackball,2D Task,2D Target Selection Task,12,191,95,60,101,6060,21,58,0,0,0,,0,1,7021
+10,Smart Trackball,2D Task,2D Target Selection Task,13,814,271,35,73,5329,23,64,0,0,0,,0,1,7128
+10,Smart Tilt Pointer,2D Task,2D Target Selection Task,4,130,14,116,30,3480,49,18,175,185,209.2008604,,1,1,7154
+10,Smart Tilt Pointer,2D Task,2D Target Selection Task,6,312,82,50,103,5150,22,70,202,334,319.5246469,,1,1,7189
+10,Smart Tilt Pointer,2D Task,2D Target Selection Task,7,721,288,46,126,5796,27,21,0,0,0,,0,1,7200
+10,Smart Tilt Pointer,2D Task,2D Target Selection Task,8,314,132,43,59,2537,34,50,165,330,309.1294227,,1,1,7216
+10,Smart Tilt Pointer,2D Task,2D Target Selection Task,10,713,166,49,84,4116,26,53,0,0,0,,0,1,7245
+10,Smart Trackpad,2D Task,2D Target Selection Task,2,410,278,125,35,1225,47,10,472,299,513.9513596,,1,1,7300
+10,Smart Trackpad,2D Task,2D Target Selection Task,3,417,295,89,38,1444,110,58,182,257,211.6246677,,1,1,7308
+10,Smart Trackpad,2D Task,2D Target Selection Task,5,96,149,95,61,3721,49,12,0,0,0,,0,1,7353
+10,Smart Trackpad,2D Task,2D Target Selection Task,7,924,281,69,65,4485,23,26,0,0,0,,0,1,7371
+10,Smart Trackpad,2D Task,2D Target Selection Task,9,806,295,128,37,4736,43,22,0,0,0,,0,1,7396
+10,Smart Trackpad,2D Task,2D Target Selection Task,10,719,89,110,44,1936,76,42,0,0,0,,0,1,7410
+10,Smart Trackpad,2D Task,2D Target Selection Task,13,196,345,47,72,3384,45,16,0,0,0,,0,1,7440
+10,Smart Trackpad,2D Task,2D Target Selection Task,14,637,31,107,33,3531,66,29,0,0,0,,0,1,7440
+10,Smart Trackpad,2D Task,2D Target Selection Task,15,385,8,96,57,5472,45,27,219,363,378.3807606,,1,1,7440
+10,Smart Trackpad,2D Task,2D Target Selection Task,16,787,121,110,55,6050,66,20,197,314,321.8648785,,1,1,7452
+10,Smart Trackpad,2D Task,2D Target Selection Task,18,298,98,124,38,4712,58,46,265,300,327.6659885,,1,1,7524
+11,Smart Rotate Pointer,2D Task,2D Target Selection Task,1,496,159,80,46,2116,440,298,155,234,292.0975864,,1,1,7540
+11,Smart Rotate Pointer,2D Task,2D Target Selection Task,2,842,94,90,79,6241,150,56,450,295,383.5635541,,1,1,7552
+11,Smart Rotate Pointer,2D Task,2D Target Selection Task,3,984,156,41,44,1804,17,37,145,155,174.0919297,,1,1,7552
+11,Smart Rotate Pointer,2D Task,2D Target Selection Task,4,576,234,33,78,2574,22,12,0,0,0,,0,1,7552
+11,Smart Rotate Pointer,2D Task,2D Target Selection Task,5,17,268,46,30,900,18,20,0,0,0,,0,1,7560
+11,Smart Rotate Pointer,2D Task,2D Target Selection Task,6,861,87,46,47,2162,77,39,0,0,0,,0,1,7566
+11,Smart Tilt Pointer,2D Task,2D Target Selection Task,2,883,27,51,61,3111,32,70,0,0,0,,0,1,7626
+11,Smart Tilt Pointer,2D Task,2D Target Selection Task,6,212,172,106,50,5300,73,32,0,0,0,,0,1,7670
+11,Smart Tilt Pointer,2D Task,2D Target Selection Task,7,581,302,112,47,5264,62,53,0,0,0,,0,1,7670
+11,Smart Tilt Pointer,2D Task,2D Target Selection Task,8,509,23,130,46,5980,35,37,0,0,0,,0,1,7704
+11,Smart Trackball,2D Task,2D Target Selection Task,2,229,94,45,82,3690,65,36,0,0,0,,0,1,7788
+11,Smart Trackball,2D Task,2D Target Selection Task,4,553,164,71,46,3266,34,17,256,300,359.684584,,1,1,7800
+11,Smart Trackball,2D Task,2D Target Selection Task,5,310,338,47,30,1410,21,25,90,414,395.0721453,,1,1,7800
+11,Smart Trackball,2D Task,2D Target Selection Task,6,497,303,31,64,1984,27,65,0,0,0,,0,1,7820
+11,Smart Trackball,2D Task,2D Target Selection Task,8,358,129,108,50,5400,52,21,232,295,327.8353245,,1,1,7848
+11,Smart Trackball,2D Task,2D Target Selection Task,9,137,15,130,35,4550,62,37,0,0,0,,0,1,7854
+11,Smart Trackball,2D Task,2D Target Selection Task,10,875,162,98,63,6174,55,19,0,0,0,,0,1,7866
+11,Smart Trackball,2D Task,2D Target Selection Task,11,720,59,100,38,3800,46,25,0,0,0,,0,1,7872
+11,Smart Trackball,2D Task,2D Target Selection Task,12,809,303,86,61,5246,49,14,0,0,0,,0,1,7936
+11,Smart Trackball,2D Task,2D Target Selection Task,14,195,213,55,35,1925,10,65,121,418,370.0405383,,1,1,7957
+11,Smart Trackball,2D Task,2D Target Selection Task,15,1047,30,38,120,4560,13,65,176,304,289.2922398,,1,1,7980
+11,Smart Trackball,2D Task,2D Target Selection Task,16,612,350,32,97,3104,51,54,0,0,0,,0,1,7998
+11,Smart Trackball,2D Task,2D Target Selection Task,19,765,170,52,91,4732,35,56,0,0,0,,0,1,8036
+11,Smart Trackball,2D Task,2D Target Selection Task,23,573,25,101,36,3636,46,30,195,304,311.8926097,,1,1,8112
+11,Smart Trackpad,2D Task,2D Target Selection Task,1,594,250,111,53,5883,24,48,0,0,0,,0,1,8118
+11,Smart Trackpad,2D Task,2D Target Selection Task,4,839,53,57,42,2394,52,31,0,0,0,,0,1,8228
+11,Smart Trackpad,2D Task,2D Target Selection Task,8,661,34,36,122,4392,28,9,0,0,0,,0,1,8316
+11,Smart Trackpad,2D Task,2D Target Selection Task,9,749,114,43,99,4257,19,24,0,0,0,,0,1,8325
+11,Smart Trackpad,2D Task,2D Target Selection Task,10,122,67,36,118,4248,19,31,331,311,419.2183202,,1,1,8360
+11,Smart Trackpad,2D Task,2D Target Selection Task,11,562,249,53,64,3392,19,2,0,0,0,,0,1,8428
+11,Smart Trackpad,2D Task,2D Target Selection Task,12,990,118,34,95,3230,21,17,80,290,279.3027032,,1,1,8446
+12,Smart Trackball,2D Task,2D Target Selection Task,1,1037,85,65,35,2275,48,15,0,0,0,,0,1,8448
+12,Smart Trackball,2D Task,2D Target Selection Task,4,169,6,57,93,5301,67,59,0,0,0,,0,1,8487
+12,Smart Trackball,2D Task,2D Target Selection Task,7,552,323,46,119,5474,108,345,0,0,0,,0,1,8526
+12,Smart Trackball,2D Task,2D Target Selection Task,8,724,276,66,75,4950,22,16,195,391,412.9818398,,1,1,8580
+12,Smart Trackball,2D Task,2D Target Selection Task,9,582,163,47,124,5828,21,98,0,0,0,,0,1,8600
+12,Smart Trackball,2D Task,2D Target Selection Task,10,366,105,34,98,3332,15,79,0,0,0,,0,1,8611
+12,Smart Trackball,2D Task,2D Target Selection Task,12,998,215,58,56,3248,18,47,0,0,0,,0,1,8658
+12,Smart Trackball,2D Task,2D Target Selection Task,13,477,79,42,107,4494,4,57,0,0,0,,0,1,8670
+12,Smart Tilt Pointer,2D Task,2D Target Selection Task,2,342,152,30,58,1740,36,51,0,0,0,,0,1,8736
+12,Smart Tilt Pointer,2D Task,2D Target Selection Task,4,534,106,62,94,5828,578,649,0,0,0,,0,1,8750
+12,Smart Rotate Pointer,2D Task,2D Target Selection Task,1,912,23,72,58,4176,19,9,0,0,0,,0,1,8750
+12,Smart Rotate Pointer,2D Task,2D Target Selection Task,2,658,36,77,59,4543,56,57,0,0,0,,0,1,8750
+12,Smart Rotate Pointer,2D Task,2D Target Selection Task,4,266,159,117,39,4563,7,32,0,0,0,,0,1,8836
+12,Smart Trackpad,2D Task,2D Target Selection Task,1,412,92,32,79,2528,24,38,0,0,0,,0,1,8836
+12,Smart Trackpad,2D Task,2D Target Selection Task,2,353,279,33,105,3465,27,67,0,0,0,,0,1,8848
+12,Smart Trackpad,2D Task,2D Target Selection Task,4,55,283,37,33,1221,9,28,0,0,0,,0,1,8875
+12,Smart Trackpad,2D Task,2D Target Selection Task,6,324,201,33,35,1155,32,18,0,0,0,,0,1,8900
+12,Smart Trackpad,2D Task,2D Target Selection Task,10,964,350,95,63,5985,53,57,159,507,462.3159093,,1,1,8961
+12,Smart Trackpad,2D Task,2D Target Selection Task,11,710,63,54,38,2052,15,7,119,148,175.2055935,,1,1,8964
+12,Smart Trackpad,2D Task,2D Target Selection Task,12,2,118,78,40,3120,36,25,0,0,0,,0,1,8970
+12,Smart Trackpad,2D Task,2D Target Selection Task,13,691,222,71,45,3195,66,33,0,0,0,,0,1,8991
+12,Smart Trackpad,2D Task,2D Target Selection Task,15,1037,151,88,38,3344,70,21,0,0,0,,0,1,9030
+12,Smart Trackpad,2D Task,2D Target Selection Task,17,742,200,31,51,1581,21,25,84,394,374.3394182,,1,1,9030
+13,Smart Trackpad,2D Task,2D Target Selection Task,1,1015,160,36,92,3312,0,56,0,0,0,,0,1,9075
+13,Smart Trackpad,2D Task,2D Target Selection Task,3,897,349,56,38,2128,22,26,0,0,0,,0,1,9135
+13,Smart Trackpad,2D Task,2D Target Selection Task,5,438,234,34,60,2040,5,35,0,0,0,,0,1,9191
+13,Smart Trackpad,2D Task,2D Target Selection Task,7,815,48,60,91,5460,25,44,0,0,0,,0,1,9204
+13,Smart Trackpad,2D Task,2D Target Selection Task,9,889,288,38,69,2622,9,26,0,0,0,,0,1,9216
+13,Smart Trackpad,2D Task,2D Target Selection Task,11,225,205,52,33,1716,35,16,98,268,259.7556544,,1,1,9282
+13,Smart Rotate Pointer,2D Task,2D Target Selection Task,2,295,233,46,108,4968,48,79,414,388,478.9958246,,1,1,9328
+13,Smart Rotate Pointer,2D Task,2D Target Selection Task,3,915,107,108,44,4752,129,83,0,0,0,,0,1,9350
+13,Smart Tilt Pointer,2D Task,2D Target Selection Task,2,947,142,54,113,6102,34,46,1440,330,1434.39604,,1,1,9393
+13,Smart Tilt Pointer,2D Task,2D Target Selection Task,4,615,73,97,61,5917,83,20,0,0,0,,0,1,9546
+13,Smart Tilt Pointer,2D Task,2D Target Selection Task,5,438,105,76,54,4104,46,31,0,0,0,,0,1,9576
+13,Smart Tilt Pointer,2D Task,2D Target Selection Task,6,572,272,44,130,5720,23,39,196,399,399.4108161,,1,1,9576
+13,Smart Tilt Pointer,2D Task,2D Target Selection Task,7,842,233,44,55,2420,27,34,131,401,381.4511764,,1,1,9594
+13,Smart Tilt Pointer,2D Task,2D Target Selection Task,8,597,203,82,38,3116,54,21,0,0,0,,0,1,9595
+13,Smart Trackball,2D Task,2D Target Selection Task,1,52,59,123,32,3936,44,15,0,0,0,,0,1,9604
+13,Smart Trackball,2D Task,2D Target Selection Task,3,956,302,128,37,4736,78,22,0,0,0,,0,1,9752
+13,Smart Trackball,2D Task,2D Target Selection Task,5,285,161,65,90,5850,41,32,0,0,0,,0,1,9890
+13,Smart Trackball,2D Task,2D Target Selection Task,7,275,308,45,46,2070,24,32,0,0,0,,0,1,9890
+13,Smart Trackball,2D Task,2D Target Selection Task,8,788,136,32,92,2944,12,58,124,331,295.0813447,,1,1,9900
+13,Smart Trackball,2D Task,2D Target Selection Task,9,160,117,116,42,4872,99,16,0,0,0,,0,1,9963
+13,Smart Trackball,2D Task,2D Target Selection Task,10,215,300,90,38,3420,44,25,142,284,276.9205662,,1,1,9996
+13,Smart Trackball,2D Task,2D Target Selection Task,12,799,342,63,49,3087,41,17,0,0,0,,0,1,10004
+13,Smart Trackball,2D Task,2D Target Selection Task,13,677,237,64,80,5120,31,29,0,0,0,,0,1,10004
+13,Smart Trackball,2D Task,2D Target Selection Task,15,653,99,42,91,3822,16,16,0,0,0,,0,1,10112
+14,Smart Tilt Pointer,2D Task,2D Target Selection Task,1,634,249,112,46,5152,68,17,0,0,0,,0,1,10140
+14,Smart Tilt Pointer,2D Task,2D Target Selection Task,2,205,283,41,87,3567,27,55,25,440,385.0051948,,1,1,10191
+14,Smart Tilt Pointer,2D Task,2D Target Selection Task,3,160,133,75,62,4650,33,31,0,0,0,,0,1,10200
+14,Smart Tilt Pointer,2D Task,2D Target Selection Task,4,553,284,52,39,2028,31,19,161,370,374.3006813,,1,1,10201
+14,Smart Tilt Pointer,2D Task,2D Target Selection Task,6,879,164,43,47,2021,37,24,38,261,237.0021097,,1,1,10209
+14,Smart Tilt Pointer,2D Task,2D Target Selection Task,8,660,350,46,125,5750,20,21,0,0,0,,0,1,10240
+14,Smart Tilt Pointer,2D Task,2D Target Selection Task,9,270,282,38,83,3154,27,38,141,338,320.9298989,,1,1,10260
+14,Smart Tilt Pointer,2D Task,2D Target Selection Task,11,542,235,82,55,4510,51,31,0,0,0,,0,1,10323
+14,Smart Tilt Pointer,2D Task,2D Target Selection Task,12,440,161,34,128,4352,24,42,68,284,245.9674775,,1,1,10323
+14,Smart Trackball,2D Task,2D Target Selection Task,1,894,93,48,84,4032,21,27,0,0,0,,0,1,10340
+14,Smart Trackball,2D Task,2D Target Selection Task,4,943,78,77,83,6391,30,67,0,0,0,,0,1,10486
+14,Smart Trackball,2D Task,2D Target Selection Task,6,495,309,110,39,4290,48,17,0,0,0,,0,1,10496
+14,Smart Trackball,2D Task,2D Target Selection Task,7,404,196,73,79,5767,29,47,0,0,0,,0,1,10502
+14,Smart Trackball,2D Task,2D Target Selection Task,8,410,128,90,40,3600,50,26,0,0,0,,0,1,10506
+14,Smart Trackball,2D Task,2D Target Selection Task,9,992,132,87,36,3132,35,19,0,0,0,,0,1,10527
+14,Smart Trackball,2D Task,2D Target Selection Task,11,700,60,121,30,3630,100,7,0,0,0,,0,1,10540
+14,Smart Trackball,2D Task,2D Target Selection Task,13,126,37,121,37,4477,87,24,0,0,0,,0,1,10670
+14,Smart Trackball,2D Task,2D Target Selection Task,14,576,9,39,71,2769,8,41,147,232,236.2244695,,1,1,10670
+14,Smart Rotate Pointer,2D Task,2D Target Selection Task,1,1017,134,79,40,3160,22,18,115,211,214.2381852,125,2,1,10738
+14,Smart Rotate Pointer,2D Task,2D Target Selection Task,2,163,301,84,72,6048,18,47,0,0,0,0,0,1,10738
+14,Smart Rotate Pointer,2D Task,2D Target Selection Task,3,531,54,37,32,1184,42,13,493,336,554.7341706,493,2,1,10788
+14,Smart Rotate Pointer,2D Task,2D Target Selection Task,5,836,202,38,41,1558,47,361,0,0,0,,0,1,10824
+14,Smart Rotate Pointer,2D Task,2D Target Selection Task,8,432,32,35,109,3815,14,76,186,281,267.59858,,1,1,10989
+14,Smart Rotate Pointer,2D Task,2D Target Selection Task,9,400,179,49,104,5096,23,40,0,0,0,,0,1,11000
+14,Smart Trackpad,2D Task,2D Target Selection Task,1,220,299,76,60,4560,58,15,0,0,0,,0,1,11000
+14,Smart Trackpad,2D Task,2D Target Selection Task,3,830,25,32,67,2144,0,40,0,0,0,,0,1,11025
+14,Smart Trackpad,2D Task,2D Target Selection Task,4,159,310,56,103,5768,37,41,0,0,0,,0,1,11036
+14,Smart Trackpad,2D Task,2D Target Selection Task,6,265,255,78,41,3198,26,23,0,0,0,,0,1,11058
+14,Smart Trackpad,2D Task,2D Target Selection Task,7,491,51,86,62,5332,69,38,0,0,0,,0,1,11124
+14,Smart Trackpad,2D Task,2D Target Selection Task,8,80,208,46,120,5520,35,40,200,384,381.5245733,,1,1,11130
+15,Smart Tilt Pointer,2D Task,2D Target Selection Task,2,549,233,130,34,4420,50,7,0,0,0,,0,1,11172
+15,Smart Tilt Pointer,2D Task,2D Target Selection Task,3,576,305,63,98,6174,26,23,0,0,0,,0,1,11286
+15,Smart Tilt Pointer,2D Task,2D Target Selection Task,4,890,162,50,123,6150,35,67,0,0,0,,0,1,11300
+15,Smart Tilt Pointer,2D Task,2D Target Selection Task,5,43,48,37,67,2479,9,0,0,0,0,,0,1,11310
+15,Smart Tilt Pointer,2D Task,2D Target Selection Task,6,120,106,61,39,2379,19,26,121,258,253.4324368,,1,1,11316
+15,Smart Tilt Pointer,2D Task,2D Target Selection Task,10,267,311,36,45,1620,22,28,45,313,285.926564,,1,1,11570
+15,Smart Tilt Pointer,2D Task,2D Target Selection Task,11,90,3,36,123,4428,23,72,0,0,0,,0,1,11610
+15,Smart Trackpad,2D Task,2D Target Selection Task,1,83,167,118,48,5664,97,33,0,0,0,,0,1,11648
+15,Smart Trackpad,2D Task,2D Target Selection Task,2,549,39,84,61,5124,46,44,0,0,0,,0,1,11730
+15,Smart Trackpad,2D Task,2D Target Selection Task,4,560,284,88,30,2640,38,18,0,0,0,,0,1,11772
+15,Smart Trackpad,2D Task,2D Target Selection Task,5,311,280,60,31,1860,45,12,28,356,344.419802,,1,1,11800
+15,Smart Trackpad,2D Task,2D Target Selection Task,7,778,17,37,41,1517,113,119,0,0,0,,0,1,11948
+15,Smart Trackpad,2D Task,2D Target Selection Task,8,566,291,31,125,3875,19,33,0,0,0,,0,1,12064
+15,Smart Trackpad,2D Task,2D Target Selection Task,9,28,131,122,49,5978,48,35,0,0,0,,0,1,12125
+15,Smart Trackpad,2D Task,2D Target Selection Task,10,707,308,32,35,1120,23,12,0,0,0,,0,1,12210
+15,Smart Trackpad,2D Task,2D Target Selection Task,11,589,83,113,47,5311,57,33,0,0,0,,0,1,12220
+15,Smart Trackpad,2D Task,2D Target Selection Task,14,51,22,74,80,5920,52,73,183,277,242.4396832,,1,1,12312
+15,Smart Trackpad,2D Task,2D Target Selection Task,16,627,76,63,53,3339,30,36,0,0,0,,0,1,12480
+15,Smart Trackpad,2D Task,2D Target Selection Task,17,309,122,75,63,4725,59,48,0,0,0,,0,1,12480
+15,Smart Trackpad,2D Task,2D Target Selection Task,19,10,216,61,90,5490,555,309,0,0,0,,0,1,12726
+15,Smart Rotate Pointer,2D Task,2D Target Selection Task,5,467,28,117,42,4914,56,36,195,206,219.592805,,1,1,12870
+15,Smart Rotate Pointer,2D Task,2D Target Selection Task,6,376,163,33,58,1914,17,22,31,208,186.5261376,,1,1,12870
+15,Smart Rotate Pointer,2D Task,2D Target Selection Task,8,660,250,49,91,4459,47,24,0,0,0,,0,1,12915
+15,Smart Rotate Pointer,2D Task,2D Target Selection Task,9,157,28,125,31,3875,59,4,277,134,253.818833,,1,1,12978
+15,Smart Rotate Pointer,2D Task,2D Target Selection Task,10,389,323,30,96,2880,15,22,0,0,0,,0,1,13104
+15,Smart Rotate Pointer,2D Task,2D Target Selection Task,13,636,159,101,39,3939,65,18,0,0,0,,0,1,13310
+15,Smart Rotate Pointer,2D Task,2D Target Selection Task,14,459,272,100,57,5700,63,25,0,0,0,,0,1,13310
+15,Smart Rotate Pointer,2D Task,2D Target Selection Task,16,130,14,116,30,3480,49,18,175,185,209.2008604,,1,1,13407
+15,Smart Rotate Pointer,2D Task,2D Target Selection Task,18,312,82,50,103,5150,22,70,202,334,319.5246469,,1,1,13416
+15,Smart Rotate Pointer,2D Task,2D Target Selection Task,19,581,110,65,37,2405,37,68,0,0,0,,0,1,13440
+15,Smart Rotate Pointer,2D Task,2D Target Selection Task,20,15,271,53,113,5989,39,23,0,0,0,,0,1,13456
+15,Smart Rotate Pointer,2D Task,2D Target Selection Task,22,839,53,57,42,2394,52,31,0,0,0,,0,1,13640
+15,Smart Trackball,2D Task,2D Target Selection Task,1,381,32,30,54,1620,19,39,73,147,120.7476708,,1,1,13924
+15,Smart Trackball,2D Task,2D Target Selection Task,2,1020,164,48,58,2784,108,204,0,0,0,,0,1,13932
+15,Smart Trackball,2D Task,2D Target Selection Task,4,296,307,68,54,3672,32,27,0,0,0,,0,1,14125
+15,Smart Trackball,2D Task,2D Target Selection Task,5,147,25,45,85,3825,101,73,0,0,0,,0,1,14268
+15,Smart Trackball,2D Task,2D Target Selection Task,7,96,149,95,61,5795,49,12,0,0,0,,0,1,14464
+15,Smart Trackball,2D Task,2D Target Selection Task,9,924,281,69,65,4485,23,26,0,0,0,,0,1,14577
+15,Smart Trackball,2D Task,2D Target Selection Task,10,355,19,55,101,5555,54,55,0,0,0,,0,1,14625
+15,Smart Trackball,2D Task,2D Target Selection Task,11,860,320,45,105,4725,23,44,0,0,0,,0,1,14750
+15,Smart Trackball,2D Task,2D Target Selection Task,13,982,310,38,32,1216,52,32,0,0,0,,0,1,14835
+15,Smart Trackball,2D Task,2D Target Selection Task,14,809,13,96,49,4704,21,20,0,0,0,,0,1,14835
+15,Smart Trackball,2D Task,2D Target Selection Task,20,556,238,65,69,4485,20,26,0,0,0,,0,1,15480
+15,Smart Trackball,2D Task,2D Target Selection Task,22,755,179,77,42,3234,45,36,0,0,0,,0,1,15625
+15,Smart Trackball,2D Task,2D Target Selection Task,27,729,24,44,73,3212,64,105,0,0,0,,0,1,16256
+15,Smart Trackball,2D Task,2D Target Selection Task,28,124,345,59,84,4956,48,28,0,0,0,,0,1,16770
