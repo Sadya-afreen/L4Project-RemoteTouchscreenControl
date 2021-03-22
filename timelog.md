@@ -292,7 +292,7 @@
 ###12th Dec 2020
 * *2 hours* Refining 3D experiment task design
 * *3 hours* Writing chapter 4 of the dissertation report
-
+* *1 hour* Prepared a meeting agenda and questions to ask during the meeting
 
 ###13th Dec 2020
 * *1/2 hour* Meeting with supervisor
@@ -343,54 +343,210 @@
 
 ###25th Dec 2020 – 3rd January (Took a break)
 
-###4th January 2020
+###4th January 2021
 * *2 hours* Ran the experiment task as a jar file and fixed some issues
 * *4 hours* Performed a pilot testing with a friend by sharing the .apk files and jars files visa google drive and performed the experiment task.
 * *1 hour* Noted down quite a few issues to fix them.
  
-###5th January 2020
+###5th January 2021
 * *3 hours* Fixed relative and absolute cursor mode technique. Distinguishing between the both was difficult hence double tapping implemented for absolute cursor.
 * *2 hours* Fixed relative cursor mode error.
 
-###6th January 2020
+###6th January 2021
 * *2 hours* Implemented a stop button on all the interaction techniques to disconnect the server using a confirmation dialogue box.
 * *4 hours* Fixed final issues in the experiment task with data logging.
 
-###7th January 2020
+###7th January 2021
 * *4 hours* Parents performed the experiment tasks with the interaction techniques
 
 
-###8th January 2020 – Off Day
+###8th January 2021 – Off Day
 
-###9th January 2020
-* *3 hours* A undergraduate non CS participant performed the experiment today.
+###9th January 2021
+* *3 hours* an undergraduate non CS participant performed the experiment today.
 
-###10th January 2020
+###10th January 2021 – off day
 * *3 hours* 
 * *2 hours* 
 
-###11th January 2020
-* *3 hours* Fixed final and template orientation data logging error and converted of 3D coordinates points to Euler angles.
-* *2 hours* Fixed variable resetting bug while perform experiment task
+###11th January 2021 – 23rd January 2020
+* * Participants remotely performed the experiment. Almost every day one or two participants performed and I stayed on zoom and messenger call observing them perform while they shared there screen. Each participant took around 40 mins to perform the experiment and talked about their experience with the techniques post experiment. Supervisor meetings were held to discuss the progress and ask questions regarding the processing of data.
 
-###12th January 2020
-* *3 hours* Fixed final and template orientation data logging error and converted of 3D coordinates points to Euler angles.
-* *2 hours* Fixed variable resetting bug while perform experiment task
+###24th January 2021 – 31st January 2020
+* * Every day around 4-5 hours were spent processing the experimental data received from participants. The data were not logged into csv format hence the data were processed to remove all other variables except the dependent variables and store them in a tabular format. Supervisor meetings were held to discuss the progress and ask questions regarding the analysis of data and what sort of statistical tests could be done.
 
-###13th January 2020
-* *3 hours* Fixed final and template orientation data logging error and converted of 3D coordinates points to Euler angles.
-* *2 hours* Fixed variable resetting bug while perform experiment task
+###1st February 2021
+* *3 hours* Read and Learnt all about different statistical tests that needs to be done to perform evaluation.
+* *1 hour* Prepared a meeting agenda and questions to ask during the meeting
 
-###4th January 2020
-* *3 hours* Fixed final and template orientation data logging error and converted of 3D coordinates points to Euler angles.
-* *2 hours* Fixed variable resetting bug while perform experiment task
+###2nd February 2021
+* *1/2 hour* Meeting with supervisor
+* *1 hour* Organized minutes of the meeting and planned rough milestones for the week 
+* *2 hours* Plotted time density graphs for the tasks performed during experiment.
 
-###4th January 2020
-* *3 hours* 
-* *2 hours* 
-###4th January 2020
+###3rd February 2021 
+* *3 hours* Read and Learnt all about the specific statistical tests such as ANOVA and T-test that would suit my evaluation the best and related it to my experiment data collected.
 
+###4th February 2021 – Thursday (no project work day)
 
+###5th February 2021
+* *6 hours* Plotted density graphs and different error bars for Task 1 and tried to interpret and understand the reasons for the visualisations observed.
+* *2 hours* Performed ANOVA (Analysis of Variance) tests on all the dependent variables of the task such as target and error count, mean Euclidean distance and error count with big and small sized targets.
+
+###6th February 2021
+* *5 hours* Plotted density graphs and different error graphs for Task 2 and tried to interpret and understand the reasons for the visualisations observed.
+* *2 hours* Performed ANOVA tests on all the dependent variables of the task such as time and mean Euclidean distance using 3D points in x ,y and z axis.
+
+###7th February 2021
+* *3 hours* Plotted density graphs and different error graphs for Task 3 and tried to interpret and understand the reasons for the visualisations observed.
+* *2 hours* Performed ANOVA tests on all the dependent variables of the task such as time and mean Angular difference.
+
+###8th February 2021
+* *5 hours* Plotted density graphs and different error graphs for Task 4 and tried to interpret and understand the reasons for the visualisations observed.
+* *2 hours* Performed ANOVA tests on all the dependent variables of the task such as time and mean Euclidean distance using 2D points in x and y axis.
+* *1 hour* Prepared a meeting agenda and questions to ask during the meeting
+
+###9th February 2021
+* *1/2 hour* Meeting with supervisor
+* *1 hour* Organized minutes of the meeting and planned rough milestones for the week 
+* *2 hours* Read and learnt about different pos hoc statistical tests that I can do to find significant difference in my evaluation results.
+
+###10th February 2021 – No Project Work day
+###11th February 2021
+* *4 hours* Performed pos hoc t-test statistical test to find the significant difference in task 1 results. 
+###12th February 2021
+* *6 hours* Performed pos hoc t-test statistical test to find the significant difference in task 2 and 3 results. 
+
+###13th February 2021
+* *4 hours* Performed pos hoc t-test statistical test to find the significant difference in task 4 results. 
+
+###14th February 2021
+* *6 hours* Read few papers to understand how to write the evaluation chapter in the dissertation report
+
+###15th February 2021
+* *2 hours* Pushed all the recent changes and files to Git hub
+* *1 hour* Prepared a meeting agenda and questions to ask during the meeting
+
+###16th February 2021
+* *1/2 hour* Meeting with supervisor
+* *1 hour* Organized minutes of the meeting and planned rough milestones for the week 
+* *2 hours* Fix NASA-TLX plot to change it to raw NASA-TLX 
+
+###17th February 2021
+* *3 hours* Performed Friedman statistical test to find if the interaction techniques have any effect on preference. 
+* *2 hours* Performed pos hoc non parametric Nemenyi statistical test to find the significant difference in order of preference. 
+
+###18th February 2021
+* *3 hours* Read some papers to figure out how to write Evaluation chapter.
+
+###19th February 2021
+* *4 hours* Performed statistical tests and analysed them to see if the interaction techniques had any effect on the Workload.
+
+###20th February 2021
+* *2 hours* Started writing the Evaluation Chapter.
+
+###21st February 2021
+* *4 hours* Writing Evaluation Chapter section 5.2 (Pilot study) and 5.3 (Results)
+
+###22nd February 2021
+* *1 hour* Prepared a meeting agenda and questions to ask during the meeting
+
+###23rd February 2021
+* *1/2 hour* Meeting with supervisor
+* *1 hour* Organized minutes of the meeting and planned rough milestones for the week 
+
+###24th February 2021 and ###25th February 2021 – Coursework completion
+
+###26th February 2021
+* *4 hours* Writing Discussion section of the Evaluation Chapter.
+
+###27th February 2021
+* *2 hours* Organized the further chapters to be written such as Overall Discussion, Conclusion and Future Work.
+
+###27th February 2021 – No project work
+
+###1st March 2021 
+* *1 hour* Prepared a meeting agenda and questions to ask during the meeting
+* *2 hours* Started writing Overall discussion chapter.
+###2nd March 2021 
+* *1/2 hour* Meeting with supervisor
+* *1 hour* Organized minutes of the meeting and planned rough milestones for the week
+* *2 hours* Continue writing Overall discussion chapter – research questions answered.
+
+###3rd March 2021 – No Project Work
+###4th March 2021 – No Project Work
+###5th March 2021 – No Project Work
+ 
+###6th March 2021 
+* *2 hours* Finished writing Overall discussion chapter.
+
+###7th March 2021 
+* *3 hours* Started writing Conclusion chapter – Design recommendations.
+
+###8th March 2021 
+* *3 hours* Started writing Future Work section.
+* *1 hour* Prepared a meeting agenda and questions to ask during the meeting
+
+###9th March 2021
+* *1/2 hour* Meeting with supervisor
+* *1 hour* Organized minutes of the meeting and planned rough milestones for the week
+* *1 hour* Made some changes in the overall discussion chapter after receiving feedback.
+
+###10th March 2021 – No Project Work
+###11th March 2021 – No Project Work
+###12th March 2021 – No Project Work
+
+###13th March 2021
+* *3 hours* Made the required changes in conclusion and future work chapter.
+
+###14th March 2021
+* *4 hours* Copying over Introduction and Background chapters to overleaf.
+
+###15th March 2021
+* *5 hours* Copying over Design and Implementation chapters to overleaf.
+* *1 hour* Prepared a meeting agenda and questions to ask during the meeting
+
+###16th March 2021
+* *1/2 hour* Meeting with supervisor
+* *1 hour* Organized minutes of the meeting and planned rough milestones for the week
+* *1 hour* Started copying over Evaluation chapter to overleaf.
+
+###17th March 2021
+* *3 hours* Continued copying over Evaluation chapter to overleaf.
+###18th March 2021 – No Project work
+
+###19th March 2021
+* *2 hours* Copied over Overall Discussion Chapter to overleaf.
+
+###20th March 2021
+* *2 hours* Fixing and Writing the Conclusion chapter in more detail and sent it to supervisor to receive feedback.
+
+###21st March 2021
+* *2 hours* Fixed all the statistical test plots to add in the evaluation chapter
+* *2 hours* Re-read evaluation chapter and make certain changes
+* *1 hour* Fix Future work writing and add it to overleaf.
+
+###22nd March 2021
+* *1 hour* Push a lot of changes made to Github (code, scripts etc.)
+* *7 hours* Re-read Introduction, background and design chapters and make certain changes.
+
+###23rd March 2021
+
+###24th March 2021
+
+###25th March 2021
+
+###26th March 2021
+
+###27th March 2021
+
+###28th March 2021
+
+###29th March 2021
+
+###30th March 2021
+
+###31st March 2021
 
 
 
