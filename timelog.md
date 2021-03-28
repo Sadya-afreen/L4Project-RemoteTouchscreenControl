@@ -523,26 +523,40 @@
 
 ###21st March 2021
 * *2 hours* Fixed all the statistical test plots to add in the evaluation chapter
-* *2 hours* Re-read evaluation chapter and make certain changes
+* *2 hours* Re-read evaluation chapter and made certain changes
 * *1 hour* Fix Future work writing and add it to overleaf.
 
 ###22nd March 2021
 * *1 hour* Push a lot of changes made to Github (code, scripts etc.)
 * *7 hours* Re-read Introduction, background and design chapters and make certain changes.
+* *1 hour* Prepared a meeting agenda and questions to ask during the meeting
 
 ###23rd March 2021
+* *1/2 hour* Meeting with supervisor
+* *1 hour* Organized minutes of the meeting and planned rough milestones for the week
+* *2 hours* Re-read implementation and overall discussion chapter and made certain changes
+
 
 ###24th March 2021
+* *2 hours* Looked up information regarding the presentation and prepared slide template.
+* *3 hours* Worked on taking videos of the interaction techniques to add 
+to the presentation.
 
 ###25th March 2021
+* *5 hours* Worked on Appendix by adding surveys and illustration images of the techniques. Completed ethics form, information and consent sheet, and introduction ad debriefing scripts.
 
-###26th March 2021
 
-###27th March 2021
+###26th March 2021 – No project work
+
+###27th March 2021 – No Project Work
 
 ###28th March 2021
+* *6 hours* Working on the presentation slides.
+
 
 ###29th March 2021
+* *1 hour* Prepared a meeting agenda and questions to ask during the meeting
+
 
 ###30th March 2021
 
