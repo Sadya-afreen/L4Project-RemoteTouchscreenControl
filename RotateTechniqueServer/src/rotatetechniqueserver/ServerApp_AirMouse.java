@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package rotatetechniqueserver;
 import java.net.*;
 import java.io.*;
@@ -12,16 +7,18 @@ import java.lang.Runnable;
  *
  * @author sadya
  */
+
+/** Class to initiate client-server connection and start a thread to receive and send messages to RotateTechnique Server Class */
 public class ServerApp_AirMouse {
     interface IGetMessage
 	{
 		void msgReceived(String msg);
 	}
-    private ServerSocket connectionSocket;
+    private ServerSocket connectionSocket;              // Server socket intialised
     private Socket serverSocket;
     private BufferedReader reciever;
-    private static final int port = 5000;
-    Thread receiverThread;
+    private static final int port = 5000;               // Port number the server socket is connected at.
+    Thread receiverThread;                              // thread to execute receivng messages from the client side of the application
     IGetMessage callback;
 
     public ServerApp_AirMouse(IGetMessage callback)
@@ -48,8 +45,8 @@ public class ServerApp_AirMouse {
     		{
     			try
     			{
-    				serverSocket = connectionSocket.accept();
-    				reciever = new BufferedReader(new InputStreamReader(serverSocket.getInputStream()));
+    				serverSocket = connectionSocket.accept();          // Client connected
+    				reciever = new BufferedReader(new InputStreamReader(serverSocket.getInputStream()));  // Client input received
     				while (!Thread.interrupted())
     				{
     					final String msg = reciever.readLine();

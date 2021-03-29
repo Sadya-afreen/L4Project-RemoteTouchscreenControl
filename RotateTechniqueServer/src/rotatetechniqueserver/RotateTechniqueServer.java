@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package rotatetechniqueserver;
 
 import java.awt.AWTException;
@@ -22,29 +17,19 @@ import javax.swing.JOptionPane;
  *
  * @author sadya
  */
+
+/** Class to execute the display cursor control functionality based on the client cursor updates received.*/
 public class RotateTechniqueServer  implements ServerApp_AirMouse.IGetMessage {
  
-    /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
-/**
- *
- * @author sadya
- */
-    
-    private ServerApp_AirMouse server;
+    private ServerApp_AirMouse server;       // Server initiated from ServerApp_Airmouse interface
     private int x, y;
-    private Robot robot;
+    private Robot robot;                     // Robot instance to execute various message requests received             
     enum Button	{ LEFT, RIGHT }
 
-    private final int MAX_X;
-    private final int MAX_Y;
-    private final int MIN_X;
-    private final int MIN_Y;
+    private final int MAX_X;                // Max x value to set the cursor not beyond the screen size
+    private final int MAX_Y;                // Max y value to set the cursor not beyond the screen size
+    private final int MIN_X;                // Man x value to set the cursor not beyond the screen size
+    private final int MIN_Y;                // Min y value to set the cursor not beyond the screen size
     
     public RotateTechniqueServer() throws AWTException
 	{
@@ -65,14 +50,14 @@ public class RotateTechniqueServer  implements ServerApp_AirMouse.IGetMessage {
 	{
 		x = (x+dx)>MAX_X?MAX_X:((x+dx)<MIN_X?MIN_X:x+dx);
 		y = (y+dy)>MAX_Y?MAX_Y:((y+dy)<MIN_Y?MIN_Y:y+dy);
-		robot.mouseMove(x,y);
+		robot.mouseMove(x,y);                                  // Robot controls display cursor and moves it based on values received.
 	}
 
 	private void clickButton(String b)
 	{
 		switch(b)
 		{
-                    case "leftclick":
+                    case "leftclick":                                         // Execute Left click once message received.
                         System.out.println(true);
                         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
                         break;
@@ -81,14 +66,14 @@ public class RotateTechniqueServer  implements ServerApp_AirMouse.IGetMessage {
 		        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
                         break;
                            
-                    case "rightclick":
+                    case "rightclick":                                       // Execute Right click once message received.
                         robot.mousePress(InputEvent.BUTTON3_DOWN_MASK);
 		        break;
                             
                     case "rightrelease":
                         robot.mouseRelease(InputEvent.BUTTON3_DOWN_MASK);
                         break;
-                    case "stop":
+                    case "stop":                                             // Disconnect server once 'stop' message recieved.
                         String text = "Press OK to disconnect the server";
                         String title = "Server Connection";
                         int optionType = JOptionPane.OK_CANCEL_OPTION;
@@ -113,7 +98,7 @@ public class RotateTechniqueServer  implements ServerApp_AirMouse.IGetMessage {
 		final float sensitivity = 10.2f;
 //                int movex =(int) ((int) 1244+((27-1244)*((values[0]-values[1])/(values[1]-values[2]))));
 //                int movey =(int) ((int) 72+((598-72)*((values[0]-values[1])/(values[1]-values[2]))));
-                int movex = -(int)(values[2]*sensitivity);
+                int movex = -(int)(values[2]*sensitivity);                       // x and z vlaues received from the client are parsed
 		int movey = -(int)(values[0]*sensitivity);
 		//int movey = -(int)(values[2]*sensitivity);
 		move(movex,movey);
@@ -123,7 +108,7 @@ public class RotateTechniqueServer  implements ServerApp_AirMouse.IGetMessage {
 	@Override
 	public void msgReceived(String msg)
 	{
-		String dataParts[] = msg.split(",");
+		String dataParts[] = msg.split(",");          // Receiving client input
                 
                 //System.out.print(dataParts[0]);
 		if(dataParts.length==1)
