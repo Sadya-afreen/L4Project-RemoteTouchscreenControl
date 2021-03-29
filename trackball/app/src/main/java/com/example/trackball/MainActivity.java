@@ -22,11 +22,13 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    RelativeLayout virtualTrackball = null;
-    private static CircleTrackball ball;
+    RelativeLayout virtualTrackball = null;                  // Grab outer circle layout
+    private static CircleTrackball ball;                     // Grab inner circle layout
     Socket_Service mBoundService;
     ArrayList<Integer> list = new ArrayList<>();
     protected static boolean mRunning = false;
+
+    /** Client Socket connection establishment using Service */
     private ServiceConnection mConnection = new ServiceConnection() {
 
         @Override
@@ -75,10 +77,10 @@ public class MainActivity extends AppCompatActivity {
                     new StrictMode.ThreadPolicy.Builder().permitAll().build();
             StrictMode.setThreadPolicy(policy);
         }
-        final String hostname = getIntent().getStringExtra("IP");
+        final String hostname = getIntent().getStringExtra("IP");       // IP address of the server received to establish connection
         startService(new Intent(MainActivity.this, Socket_Service.class).putExtra("IP",hostname));
     //    mBoundService.sendMessage("20,40");
-        doBindService();
+         doBindService();                                             // initiate client socket
          int backgroundTrackball = R.drawable.bg_trackball;
          int backgroundDpad = R.color.transparent;
 
@@ -86,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         Button leftClick = (Button) findViewById(R.id.L_btn);
         leftClick.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
+            public boolean onTouch(View v, MotionEvent event) {                         // Left click message sent to the server to execute a left click
                 if(event.getAction() == MotionEvent.ACTION_DOWN) {
                     Log.i("leftclick","");
                     if(mBoundService!=null){
@@ -108,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
         Button rightClick = (Button) findViewById(R.id.R_btn);
         rightClick.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
+            public boolean onTouch(View v, MotionEvent event) {                                          // Right click message sent to the server to execute a right click
                 if(event.getAction() == MotionEvent.ACTION_DOWN) {
                     Log.i("rightclick","");
                     if(mBoundService!=null){
@@ -129,26 +131,12 @@ public class MainActivity extends AppCompatActivity {
 
         virtualTrackball.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
+            public boolean onTouch(View v, MotionEvent event) {                       // Detect Finger touch movements on the inner (smaller) trackball
                 if (ball==null)
                     ball = (CircleTrackball) virtualTrackball.getChildAt(1);
                 switch (event.getAction()){
                     case MotionEvent.ACTION_DOWN:
                         ball.onTouchEvent(event);
-//                        int xBall = (int) event.getX() - ball.getWidth() / 2;
-//                        int yBall = (int) event.getY() - ball.getHeight() / 2;
-//                        if (xBall < 0)
-//                            xBall = 0;
-//                        if (yBall < 0)
-//                            yBall = 0;
-//                        if (event.getX() >= (virtualTrackball.getWidth() - ball.getWidth() / 2))
-//                            xBall = virtualTrackball.getWidth() - ball.getWidth();
-//                        if (event.getY() >= (virtualTrackball.getHeight() - ball.getWidth() / 2))
-//                            yBall = virtualTrackball.getHeight() - ball.getHeight();
-//
-//                        ball.setX(xBall);
-//                        ball.setY(yBall);
-//                        int pos = getPos((int) event.getX(), (int) event.getY());
                         list = checkEvent(ball,event);
 
                         break;
@@ -157,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
                         if (mBoundService != null) {
 
                                  System.out.println("not null");
-                                 mBoundService.sendMessage((list.get(0) + "," + list.get(1)).toString());
+                                 mBoundService.sendMessage((list.get(0) + "," + list.get(1)).toString());  // Send x and y coordinates over the socket to server using service
 
             }
                         break;
@@ -207,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
 //            }
     }
     public int getPos(int x, int y){
-        int xPos = -1,yPos = -1;
+        int xPos = -1,yPos = -1;                  // Gets the position of the inner ball
         if (x<0) xPos = 1;
         if (y<0) yPos = 1;
         if (x>=virtualTrackball.getWidth()-ball.getWidth()/2) xPos = 3;
@@ -221,6 +209,23 @@ public class MainActivity extends AppCompatActivity {
         //Key 3*3
         return 3*(yPos-1)+xPos;
     }
+
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.stop_btn:
+                if (mBoundService != null) {
+                    mBoundService.sendMessage(("stop").toString());
+                }
+                break;
+
+        }
+    }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        doUnbindService();
+    }
+}
 //    public static class VirtualTrackball extends RelativeLayout {
 //
 //        MainActivity t;
@@ -468,23 +473,4 @@ public class MainActivity extends AppCompatActivity {
 //
 //
 //
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.stop_btn:
-                if (mBoundService != null) {
-                    mBoundService.sendMessage(("stop").toString());
-                }
-                break;
-//        case R.id.R_btn:
-//            if (mBoundService != null) {
-//                mBoundService.sendMessage(("rightclick").toString());
-//            }
-//            break;
-        }
-    }
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        doUnbindService();
-    }
-}
+

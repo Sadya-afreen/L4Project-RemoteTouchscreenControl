@@ -14,7 +14,9 @@ import java.io.BufferedWriter;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.net.Socket;
-
+/**
+ * Socket service class to establish a connection with the server side of the application using sockets.
+ */
 public class Socket_Service extends Service {
 
     String hostname = null;

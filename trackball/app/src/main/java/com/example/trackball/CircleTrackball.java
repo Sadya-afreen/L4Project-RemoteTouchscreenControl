@@ -8,6 +8,8 @@ import android.view.View;
 
 import androidx.annotation.RequiresApi;
 
+
+/** Class for inner circular trackball view */
 public class CircleTrackball extends View {
 
     public CircleTrackball(Context context) {

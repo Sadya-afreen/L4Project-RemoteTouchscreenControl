@@ -40,17 +40,18 @@
         android:textAllCaps="true"
         android:textSize="24sp"
         android:textStyle="bold" />
+
     <Button
         android:id="@+id/stop_btn"
         style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="181dp"
-        android:layout_height="74dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="79dp"
-        android:layout_marginRight="79dp"
-        android:layout_marginBottom="-2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
         android:onClick="onClick"
         android:text="Stop Connection"
         android:textAllCaps="true"
