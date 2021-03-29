@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package trackballserver;
 import java.awt.AWTException;
 import java.awt.Dimension;
@@ -23,14 +18,14 @@ import javax.swing.JOptionPane;
  * @author sadya
  */
 public class TrackballServer {
-    private static ServerSocket server = null;
-    private static Socket client = null;
+    private static ServerSocket server = null;            // Server socket initiated
+    private static Socket client = null;                  // Client socket initiated
     private static BufferedReader in = null;
     private static String line;
     private static boolean isConnected = true;
-    private static Robot robot;
-    private static final int SERVER_PORT = 5000;
-    private static final float MOVE_RATIO = 3.2f;
+    private static Robot robot;                          // Robot instance to execute various message requests received
+    private static final int SERVER_PORT = 5000;         // Port number the server socket is connected at.
+    private static final float MOVE_RATIO = 3.2f;        // Cursor movement (sensitivity) ratio
     /**
      * @param args the command line arguments
      */
@@ -42,9 +37,9 @@ public class TrackballServer {
             try {
                     robot = new Robot();
                     server = new ServerSocket(SERVER_PORT);
-                    client = server.accept();
+                    client = server.accept();                               // Client connected
                    
-                    in = new BufferedReader(new InputStreamReader(client.getInputStream()));
+                    in = new BufferedReader(new InputStreamReader(client.getInputStream()));    // Receiving client input
                     
                     System.out.println("Socket Open successfully");
             } catch (IOException e) {
@@ -63,9 +58,9 @@ public class TrackballServer {
                            // line = in.readLine();
                            // System.out.println(line);
 
-                            if (line.contains(",")) {
+                            if (line.contains(",")) {                       // Smartphone touchscreen x and y values received from client side of the application.
                              
-                                   int movex = Integer.parseInt(line.split(",")[0]);
+                                    int movex = Integer.parseInt(line.split(",")[0]);          // x and y values received parsed
                                     int mx = (int) (movex * MOVE_RATIO);
                                 
                                   
@@ -73,10 +68,10 @@ public class TrackballServer {
                                     int my = (int) (movey * MOVE_RATIO);
                                   
                                   
-                                        robot.mouseMove(mx,my);// for trackball
+                                    robot.mouseMove(mx,my);  // Robot controls display cursor and moves it based on values received.
    
                             }
-                            else if(line.contains("leftclick")){
+                            else if(line.contains("leftclick")){                // Execute Left click once message received.
                                 robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
                           
                             }
@@ -84,14 +79,14 @@ public class TrackballServer {
                              
 		               robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
                             }
-                            else if(line.contains("rightclick")){
+                            else if(line.contains("rightclick")){               // Execute Right click once message received.
                                 robot.mousePress(InputEvent.BUTTON3_DOWN_MASK);
 				
                             }
                             else if(line.contains("rightrelease")){
                                robot.mouseRelease(InputEvent.BUTTON3_DOWN_MASK);
                             }
-                             else if(line.contains("stop")){
+                             else if(line.contains("stop")){                              // Disconnect server once 'stop' message recieved.
                                 String text = "Press OK to disconnect the server";
                                 String title = "Server Connection";
                                 int optionType = JOptionPane.OK_CANCEL_OPTION;
@@ -101,7 +96,6 @@ public class TrackballServer {
                                 }
 //                                 System.out.println("here");
 //                                JFrame f;
-//
 //                                f=new JFrame();
 //                                JOptionPane.showMessageDialog(f,"The Server has shut down.");
                             }
@@ -116,7 +110,7 @@ public class TrackballServer {
                      //       line=in.readLine();
                       //  }
                
-                    } catch (IOException e) {
+                    } catch (IOException e) {                           // Exception raised if client values not read in the input stream.
                             System.out.println("Read failed");
                             System.exit(-1);
                     }
