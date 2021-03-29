@@ -15,6 +15,9 @@ import java.io.PrintWriter;
 import java.net.InetAddress;
 import java.net.Socket;
 
+/**
+ * Socket service class to establish a connection with the server side of the application using sockets.
+ */
 public class Socket_BackgroundService extends Service {
     private static final int SERVER_PORT = 5000;
     String hostname=null;

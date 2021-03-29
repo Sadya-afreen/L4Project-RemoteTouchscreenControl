@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity{
             }});
 
         Button rightClick = (Button) findViewById(R.id.r_btn);
-        rightClick.setOnTouchListener(new View.OnTouchListener() {                        // Left click message sent to the server to execute a left click
+        rightClick.setOnTouchListener(new View.OnTouchListener() {                        // Right click message sent to the server to execute a right click
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if(event.getAction() == MotionEvent.ACTION_DOWN) {
