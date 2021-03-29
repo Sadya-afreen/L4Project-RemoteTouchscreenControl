@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private boolean isConnected = false;
     private boolean mouseMoved = false;
     protected static boolean mRunning = false;
+
+    /** Client Socket connection establishment using Service */
     SocketService mBoundService;
     private ServiceConnection mConnection = new ServiceConnection() {
 
@@ -70,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,                             // Grab the layout
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -79,11 +81,11 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                     new StrictMode.ThreadPolicy.Builder().permitAll().build();
             StrictMode.setThreadPolicy(policy);
         }
-        final String hostname = getIntent().getStringExtra("IP");
+        final String hostname = getIntent().getStringExtra("IP");                   // IP address of the server received to establish connection
 
         startService(new Intent(MainActivity.this,SocketService.class).putExtra("IP",hostname));
         doBindService();
-        sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+        sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);                 // Setup the gyroscope sensor
         sensorManager.registerListener(this,
                 sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE),
                 SensorManager.SENSOR_DELAY_GAME);
@@ -91,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         Button leftClick = (Button) findViewById(R.id.leftClick);
         leftClick.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
+            public boolean onTouch(View v, MotionEvent event) {                                      // Left click message sent to the server to execute a left click
                 if(event.getAction() == MotionEvent.ACTION_DOWN) {
                     Log.i("leftclick","");
                     if(mBoundService!=null){
@@ -113,7 +115,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         Button rightClick = (Button) findViewById(R.id.rightClick);
         rightClick.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
+            public boolean onTouch(View v, MotionEvent event) {                           // Right click message sent to the server to execute a right click
                 if(event.getAction() == MotionEvent.ACTION_DOWN) {
                     Log.i("rightclick","");
                     if(mBoundService!=null){
@@ -133,7 +135,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             }});
     }
 
-    public void onClick(View v) {
+    public void onClick(View v) {                                                 // Stop message sent to the server to disconnect it.
         switch(v.getId()) {
             case R.id.stop_btn:
                 if (mBoundService != null) {
@@ -158,13 +160,13 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         super.onPause();
     }
     @Override
-    protected void onDestroy() {
+    protected void onDestroy() {                                          // unbind the socket service
         super.onDestroy();
         doUnbindService();
     }
 
     @Override
-    public void onSensorChanged(SensorEvent event) {
+    public void onSensorChanged(SensorEvent event) {                                                 // Gyroscope values are sent over the socket to the server application
         float[] values = event.values;
         // Movement
         float x = values[0];

@@ -33,10 +33,10 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_marginLeft="-3dp"
+        android:layout_marginLeft="0dp"
         android:layout_marginEnd="79dp"
-        android:layout_marginRight="81dp"
-        android:layout_marginBottom="19dp"
+        android:layout_marginRight="78dp"
+        android:layout_marginBottom="-9dp"
         android:gravity="center"
         android:onClick="onClick"
         android:paddingLeft="30dp"
@@ -48,13 +48,13 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="608dp">
+        android:layout_height="554dp">
 
 
         <Button
             android:id="@+id/leftClick"
             android:layout_width="273dp"
-            android:layout_height="597dp"
+            android:layout_height="554dp"
             android:layout_marginBottom="60dp"
             android:layout_weight="1"
             android:text="Left Click"
@@ -65,7 +65,7 @@
         <Button
             android:id="@+id/rightClick"
             android:layout_width="273dp"
-            android:layout_height="594dp"
+            android:layout_height="549dp"
             android:layout_marginBottom="60dp"
             android:layout_weight="1"
             android:text="Right Click"
