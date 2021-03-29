@@ -100,6 +100,7 @@ public class MainActivity extends AppCompatActivity{
 
 
 
+     /** Client Socket connection establishment using Service */
     Socket_BackgroundService mBoundService;
     private ServiceConnection mConnection = new ServiceConnection() {
 
@@ -122,7 +123,7 @@ public class MainActivity extends AppCompatActivity{
         mRunning = true;
         if (mBoundService != null) {
             mBoundService.IsBoundable();
-            Log.i("mbound", "obund");
+            Log.i("mbound", "bound");
             System.out.println("mbound");
         }
     }
@@ -145,13 +146,13 @@ public class MainActivity extends AppCompatActivity{
                     new StrictMode.ThreadPolicy.Builder().permitAll().build();
             StrictMode.setThreadPolicy(policy);
         }
-        final String hostname = getIntent().getStringExtra("IP");
+        final String hostname = getIntent().getStringExtra("IP");        // IP address of the server received to establish connection
 //        Log.d("AirMouse Hostname",hostname);
         startService(new Intent(MainActivity.this,Socket_BackgroundService.class).putExtra("IP",hostname));
         doBindService();
 
         Button leftClick = (Button) findViewById(R.id.l_btn);
-        leftClick.setOnTouchListener(new View.OnTouchListener() {
+        leftClick.setOnTouchListener(new View.OnTouchListener() {              // Left click message sent to the server to execute a left click
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if(event.getAction() == MotionEvent.ACTION_DOWN) {
@@ -173,7 +174,7 @@ public class MainActivity extends AppCompatActivity{
             }});
 
         Button rightClick = (Button) findViewById(R.id.r_btn);
-        rightClick.setOnTouchListener(new View.OnTouchListener() {
+        rightClick.setOnTouchListener(new View.OnTouchListener() {                        // Left click message sent to the server to execute a left click
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if(event.getAction() == MotionEvent.ACTION_DOWN) {
@@ -194,23 +195,13 @@ public class MainActivity extends AppCompatActivity{
                 return true;
             }});
         mylayout = (RelativeLayout) findViewById(R.id.my_mouse_pad);
-        final Button cursor_button = (Button) findViewById(R.id.cursor_btn);
 
-
-        touch_pad = (TextView) findViewById(R.id.textView);
+        touch_pad = (TextView) findViewById(R.id.textView);                 // Grab the text view layout for the trackpad
 
 
 //my_mouse_pad
-        touch_pad.setOnTouchListener(new View.OnTouchListener() {
+        touch_pad.setOnTouchListener(new View.OnTouchListener() {          // Detect Finger touch movements on the trackpad
             long down;
-//            final Handler handler = new Handler();
-//            Runnable mLongPressed = new Runnable() {
-//                public void run() {
-//                    Log.i("", "Long press!");
-//                }
-//            };
-       //     ArrayList<String> list = new ArrayList<>();
-       //     MessageSender messagesender = new MessageSender();
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
                     isConnected = true;
@@ -218,70 +209,18 @@ public class MainActivity extends AppCompatActivity{
                     if (isConnected) {
                         //  if(pointerCount==1){
                         switch (event.getAction()) {
-                            case MotionEvent.ACTION_DOWN:
-                                //   handler.postDelayed(mLongPressed, ViewConfiguration.getLongPressTimeout());
-                                //save X and Y positions when user touches the TextView
-//                                lastDownX = (int) event.getX();
-//                                lastDownY = (int) event.getY();
+                            case MotionEvent.ACTION_DOWN:              // Finger touch initiates tracking finger movement
+
                                 isMoving = false;
-//                                startTime = System.currentTimeMillis();
-//                                clickCount++;
-//                                lastTouchDownXY[0] = (int)event.getX();
-//                                lastTouchDownXY[1] = (int)event.getY();
-                                initX = (int) event.getX();
+
+                                initX = (int) event.getX();           // x and y coordinate of the point the finger touches the trackpad
                                 initY = (int) event.getY();
 
-                      //          onSingClick(event, true);
-                                //mDownTime = System.currentTimeMillis();
-//                                mDownX = (int)event.getX();
-//                                mDownY = (int)event.getY();
-//                                System.out.println(mX+"x" + mY+"y");
-//                                if(mLastMoveX-mX >10 &&mLastMoveY-mY >10 ){
-//                                if (mBoundService != null) {
-//
-//                                    mBoundService.sendMessage(((int)(mX/3.2f) + "," + (int)(mY/3.2f)).toString());
-//
-//                                }
-//                                else{
-//                                if (mBoundService != null) {
-//
-//                                    mBoundService.sendMessage(((int)(mX/7.2f) + "," + (int)(mY/7.2f)).toString());
-//
-//                                }
-//                                }
-//                                initX = event.getX();
-//                                initY = event.getY();
+
                                 mouseMoved = false;
                                 break;
-                            case MotionEvent.ACTION_MOVE:
-//                                paint.setColor(Color.RED);
-//                                x = (int) event.getRawX();
-//                                y = (int) event.getRawY();
-//
-//                                if (lastDownX < x)
-//                                    disX += (x - lastDownX) / scrollDrag;
-//                                else
-//                                    disX -= (lastDownX - x) / scrollDrag;
-//
-//                                if (lastDownY < y)
-//                                    disY += (y - lastDownY) / scrollDrag;
-//                                else
-//                                    disY -= (lastDownY - y) / scrollDrag;
-//
-//                                if (disX < 0) disX = 0;
-//                                if (disY < 0) disY = 0;
-//
-//                                lastX = x;
-//                                lastY = y;
-//                            //    if(disX!=0 && disY!=0) {
-//                                    if (mBoundService != null) {
-//
-//                                        mBoundService.sendMessage((disX + "," + disY).toString());
-//
-//                                    }
-//                             //   }
-//                                mouseMoved = true;
-//                                break;
+                            case MotionEvent.ACTION_MOVE:          // Finger touch initiates tracking relative finger movement to send x and y values over to the server.
+
                                 isMoving = true;
 //
                                 int disX = 0;
@@ -294,7 +233,7 @@ public class MainActivity extends AppCompatActivity{
                                 if (disX != 0 || disY != 0) {
                                     if (mBoundService != null) {
 
-                                        mBoundService.sendMessage((disX + "," + disY).toString());
+                                        mBoundService.sendMessage((disX + "," + disY).toString());      // Send x and y coordinates over the socket to server using service
 
                                     }
                                 }
@@ -332,7 +271,7 @@ public class MainActivity extends AppCompatActivity{
 ////                                cursor_button.setX(initX);
 ////                                cursor_button.setY(initY);
 
-                                mouseMoved = true;
+                                mouseMoved = true;                    // variable to track finger movement
                                 break;
 
 
@@ -357,15 +296,15 @@ public class MainActivity extends AppCompatActivity{
 //
 //                                mouseMoved = true;
 //                                break;
-                            case MotionEvent.ACTION_UP:
+                            case MotionEvent.ACTION_UP:                               // Finger moved from the trackpad detected to distinguish between relative and absolute cursor mode.
                                 lastUpX = (int) event.getX();
                                 lastUpY = (int) event.getY();
                                 clickCount++;
                                 //  long time = System.currentTimeMillis() - startTime;
                                 //  duration = duration + time;
-                                if (clickCount == 1) {
+                                if (clickCount == 1) {                              // Checks if double tap occurred
                                     startTime = System.currentTimeMillis();
-                                } else if (clickCount == 2) {
+                                } else if (clickCount == 2) {                                // double tap checked for absolute cursor jump values to be sent to server.
                                     long duration = System.currentTimeMillis() - startTime;
                                     if (duration <= MAX_DURATION) {
                                         if (mBoundService != null) {
@@ -402,34 +341,12 @@ public class MainActivity extends AppCompatActivity{
 
             });
 
-//           touch_pad.setOnLongClickListener(new View.OnLongClickListener() {
-//               @Override
-//               public boolean onLongClick(View v) {
-//
-//                   // retrieve the stored coordinates
-//                   float x = lastTouchDownXY[0];
-//                   float y = lastTouchDownXY[1];
-//
-//                   if (mBoundService != null) {
-//
-//                       mBoundService.sendMessage(((int)(x) + "," + (int)(y)).toString());
-//
-//                                }
-//                   // we have consumed the touch event
-//                   return true;
-//               }
-//           });
-//    public void Send(View v){
-//        MessageSender messagesender = new MessageSender();
-//        messagesender.execute(tv1.getText().toString());
-//    }
 
     }
     private boolean held_too_long( MotionEvent event){
         return event.getEventTime()-time_0 > 3;
 
     }
-
 
     private void down(MotionEvent touch)
     {
@@ -438,28 +355,23 @@ public class MainActivity extends AppCompatActivity{
         y_0= touch.getY();
     }
 
+    private void onSingClick(MotionEvent event, boolean down) {        // Method to check previous cursor position to allow constant relative cursor mode updates to be sent.
 
+    if (down) {
+        mDownTime = System.currentTimeMillis();
+        mDownX = event.getX();
+        mDownY = event.getY();
 
-
-        private void onSingClick(MotionEvent event, boolean down) {
-
-        if (down) {
-
-
-            mDownTime = System.currentTimeMillis();
-            mDownX = event.getX();
-            mDownY = event.getY();
-
-        } else {
-            mUpTime = System.currentTimeMillis();
-            mUpX = event.getX();
-            mUpY = event.getY();
-        }
+    } else {
+        mUpTime = System.currentTimeMillis();
+        mUpX = event.getX();
+        mUpY = event.getY();
+    }
 
 
     }
 
-    public void onClick(View v) {
+    public void onClick(View v) {                     // Stop message sent to the server to disconnect it.
         switch(v.getId())
         {
             case R.id.stop_btn:
@@ -467,29 +379,14 @@ public class MainActivity extends AppCompatActivity{
             mBoundService.sendMessage(("stop").toString());
         }
             break;
-//            case R.id.r_btn:
-//                if (mBoundService != null) {
-//                    mBoundService.sendMessage(("rightclick").toString());
-//                }
-//                break;
+
         }
     }
-    @Override
+    @Override                               // Socket service unbound to release the resource.
     protected void onDestroy() {
         super.onDestroy();
         doUnbindService();
     }
-//    @Override
-//    public void onDestroy() {
-//        super.onDestroy();
-//        if (isConnected && out != null) {
-//            try {
-//                out.println("exit"); //tell server to exit
-//                s.close(); //close socket
-//            } catch (IOException e) {
-//                Log.e("remotedroid", "Error in closing socket", e);
-//            }
-//        }
-//    }
+
 
 }
