@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package tilttechniqueserver;
 
 import java.awt.AWTException;
@@ -24,33 +19,28 @@ import javax.swing.JOptionPane;
  * @author sadya
  */
 public class TiltTechniqueServer {
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-    private static ServerSocket server = null;
-    private static Socket client = null;
+    private static ServerSocket server = null;        // Server socket initiated
+    private static Socket client = null;              // Client socket initiated
     private static BufferedReader in = null;
     private static String line;
     private static boolean isConnected = true;
-    private static Robot robot;
-    private static final int SERVER_PORT = 5000;
+    private static Robot robot;                       // Robot instance to execute various message requests received
+    private static final int SERVER_PORT = 5000;      // Port number the server socket is connected at.
     
     public static void main(String[] args) {
     Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
     double width = screenSize.getWidth();
     double height = screenSize.getHeight();
     float scale=1;
-    float sensitivity=1;
+    float sensitivity=1;                             // cursor sensitivity set for Control Display
     System.out.println("Server Running!");
             try {
                     robot = new Robot();
-                    server = new ServerSocket(SERVER_PORT);
-                    client = server.accept();
+                    server = new ServerSocket(SERVER_PORT);               
+                    client = server.accept();                              // Client connected
                    
-                    in = new BufferedReader(new InputStreamReader(client.getInputStream()));
+                    in = new BufferedReader(new InputStreamReader(client.getInputStream()));  // Receiving client input
                     
                     System.out.println("Socket Open successfully");
             } catch (IOException e) {
@@ -64,32 +54,31 @@ public class TiltTechniqueServer {
             while (isConnected) {
                     try {
                   //      while(line!=null){
-                        line = in.readLine();
+                        line = in.readLine();      // Accelerometer sensor values received from client side of the application.
                        
                            // line = in.readLine();
                             //System.out.println(line);
 
-                            if (line.contains(",")) {
+                            if (line.contains(",")) {    // x, y and z values received parsed
                            
                                     float movex = Float.parseFloat(line.split(",")[0]);
                                 
                                     float movey = Float.parseFloat(line.split(",")[1]);
                                
                                     Point point = MouseInfo.getPointerInfo().getLocation();
+                                    if(point==null){
+                                        point.x=0;
+                                        point.y=0;
+
+                                    }
                                     float movez = Float.parseFloat(line.split(",")[2]);
-                                
-//                                   point.x=(int) movex;
-//                                   point.y=(int) movey;
 
                                     float nowx = point.x;
                                     float nowy = point.y;
-                                 //   robot.mouseMove((int)(scale*x),(int)(scale*y));
-                                    robot.mouseMove( point.x + (int) (-movex*sensitivity),point.y + (int) (-movey*sensitivity));
-                              //         robot.mouseMove((int) ( -movex*6) , (int)movey*6);
-                                            
-                         //   }
+                                 
+                                    robot.mouseMove( point.x + (int) (-movex*sensitivity),point.y + (int) (-movey*sensitivity));  // Robot controls display cursor and moves it based on values received.
                             }
-                            else if(line.contains("leftclick")){
+                            else if(line.contains("leftclick")){                    // Execute Left click once message received.
                                 robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
                   
                             }
@@ -97,14 +86,14 @@ public class TiltTechniqueServer {
                               
 		               robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
                             }
-                            else if(line.contains("rightclick")){
+                            else if(line.contains("rightclick")){                   // Execute Right click once message received.
                                 robot.mousePress(InputEvent.BUTTON3_DOWN_MASK);
 				
                             }
                             else if(line.contains("rightrelease")){
                                robot.mouseRelease(InputEvent.BUTTON3_DOWN_MASK);
                             }
-                            else if(line.contains("stop")){
+                            else if(line.contains("stop")){                           // Disconnect server once 'stop' message recieved.
                                 String text = "Press OK to disconnect the server";
                                 String title = "Server Connection";
                                 int optionType = JOptionPane.OK_CANCEL_OPTION;
@@ -115,7 +104,7 @@ public class TiltTechniqueServer {
 
                             }
                 
-                    } catch (IOException e) {
+                    } catch (IOException e) {                   // Exception raised if client values not read in the input stream.
                             System.out.println("Read failed");
                             System.exit(-1);
                     }
