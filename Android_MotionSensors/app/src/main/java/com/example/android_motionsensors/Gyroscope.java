@@ -6,6 +6,9 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 
+/**
+ * Gyroscope sensor test class
+ */
 public class Gyroscope {
     public interface Listener{ // interface for observer design pattern
         void onRotation(float rx, float ry, float rz);   // these are the rotations about the x,y and z axis

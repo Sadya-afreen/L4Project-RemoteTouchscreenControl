@@ -7,6 +7,9 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * Starting screen interface that allows users to enter the IP address of the servers t start a connection.
+ */
 public class Send_ip extends AppCompatActivity implements View.OnClickListener{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +18,7 @@ public class Send_ip extends AppCompatActivity implements View.OnClickListener{
         findViewById(R.id.submit).setOnClickListener(this);
     }
 
+    // Submit button sends the IP address to the main class
     @Override
     public void onClick(View v) {
         Intent i = new Intent(this,MainActivity.class);

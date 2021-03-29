@@ -6,6 +6,9 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 
+/**
+ * Accelerometer sensor Test class
+ */
 public class Accelerometer {
 
     public interface Listener{ // interface for observer design pattern

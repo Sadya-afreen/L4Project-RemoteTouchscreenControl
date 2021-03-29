@@ -56,7 +56,7 @@ public class MainActivity extends Activity implements SensorEventListener {
         mRunning = true;
         if (mBoundService != null) {
             mBoundService.IsBoundable();
-            Log.i("mbound", "obund");
+            Log.i("mbound", "bound");
             System.out.println("mbound");
         }
     }
@@ -73,7 +73,7 @@ public class MainActivity extends Activity implements SensorEventListener {
     protected void onCreate(Bundle savedInstanceState) {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);                             // Grab the layout
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         if (android.os.Build.VERSION.SDK_INT > 9) {
@@ -81,10 +81,10 @@ public class MainActivity extends Activity implements SensorEventListener {
                     new StrictMode.ThreadPolicy.Builder().permitAll().build();
             StrictMode.setThreadPolicy(policy);
         }
-        final String hostname = getIntent().getStringExtra("IP");
+        final String hostname = getIntent().getStringExtra("IP");                     // IP address of the server recieved to establish connection
         startService(new Intent(MainActivity.this,SocketService.class).putExtra("IP",hostname));
         doBindService();
-        sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+        sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);              // Setup the accelerometer sensor
         sensorManager.registerListener(this,
                 sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER),
                 SensorManager.SENSOR_DELAY_GAME);
@@ -92,7 +92,7 @@ public class MainActivity extends Activity implements SensorEventListener {
          Button leftClick = (Button) findViewById(R.id.leftClick);
          leftClick.setOnTouchListener(new View.OnTouchListener() {
              @Override
-             public boolean onTouch(View v, MotionEvent event) {
+             public boolean onTouch(View v, MotionEvent event) {                                // Left click message sent to the server to execute a left click
                  if(event.getAction() == MotionEvent.ACTION_DOWN) {
                      Log.i("leftclick","");
                      if(mBoundService!=null){
@@ -114,7 +114,7 @@ public class MainActivity extends Activity implements SensorEventListener {
         Button rightClick = (Button) findViewById(R.id.rightClick);
         rightClick.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
+            public boolean onTouch(View v, MotionEvent event) {                                       // Right click message sent to the server to execute a right click
                 if(event.getAction() == MotionEvent.ACTION_DOWN) {
                     Log.i("rightclick","");
                     if(mBoundService!=null){
@@ -149,30 +149,10 @@ public class MainActivity extends Activity implements SensorEventListener {
 //            }
 //        });
 //
-//        gyroscope.setListener(new Gyroscope.Listener() {
-//            @Override
-//            public void onRotation(float rx, float ry, float rz) {
-//                if(rz>1.0f){
-//                    getWindow().getDecorView().setBackgroundColor(Color.GREEN);
-//                }
-//                else if(rz<-1.0f){
-//                    getWindow().getDecorView().setBackgroundColor(Color.YELLOW);
-//
-//                }
-//            }
-//        });
-
-
-//    @Override
-//    protected void onPause() {
-//        super.onPause();
-//        accelerometer.unregister();
-//      //  gyroscope.unregister();
-//    }
 
     }
 
-    public void onClick(View v) {
+    public void onClick(View v) {                               // Stop message sent to the server to disconnet it.
         switch(v.getId())
         {
             case R.id.stop_btn:
@@ -195,7 +175,7 @@ public class MainActivity extends Activity implements SensorEventListener {
 
 
     }
-    private void getAccelerometer(SensorEvent event) {
+    private void getAccelerometer(SensorEvent event) {               // Accelerometer values are sent over the socket to the server application
         float[] values = event.values;
         // Movement
         float x = values[0];
@@ -209,29 +189,6 @@ public class MainActivity extends Activity implements SensorEventListener {
        // Log.i("accel", x+" "+y+" "+z);
 
     }
-//    public void leftClick(View v)
-//    {
-//        Log.i("leftclick","");
-//        if(mBoundService!=null){
-//
-//            mBoundService.sendMessage(("leftclick"));
-//        }
-//    }
-//
-//    public void leftrelease(View v){
-//        if(mBoundService!=null){
-//
-//            mBoundService.sendMessage(("leftrelease"));
-//        }
-//    }
-
-//    public void rightClick(View v)
-//    {
-//        Log.i("rightclick","");
-//        mBoundService.sendMessage(("rightclick"));
-//    }
-
-
 
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
