@@ -3,6 +3,7 @@
 Publicly shared touchscreens always possessed hygiene issues given that multiple people touch it many times during the day. Recent Covid-19 times have drawn more risks toward susing such shared interfaces. Thus, this project aims to design and implement four remote interation techniques using smartphones. Smartphone can be used a personal remote control as they do not facilitate the transmission of infectious diseases.  
 
 The interaction techniques allow users to remotely control a display cursor using smartphones. 
+
 Technique 1 - Smart Trackpad allows users to relatively move their finger on the trackpad to remotely control the display cursor. Left and right buttons allow target selection that follow the conventional button functionality. 
 
 Technique 2 - Smart Trackball technique allows users to relatively move their finger on the trackball to remotely control the display cursor. This technique required circular finger movements on a smaller area unlike the linear movements on the trackpad. Buttons placed at the bottom of the screen allows selection on the remote screen.
@@ -16,3 +17,9 @@ Remote evaluation of the techniques have been performed where technique could be
 Experiment tasks have been implemented that consists of a variety of 2D and 3D interaction tasks to evaluate the techniques as a 2D and 3D input controller.
 
 This repo containes all the source code of the project (implementation code, evaluation scripts, and executable files), timelog, status report and dissertation report.
+
+Instructions to use the techniques:
+
+On a desktop/laptop (E.g. Windows OS) run a .exe or .jar (E.g. TrackballServer) file from the MyServer folder. {Server-side of the system}
+On an Android smartphone, run the app (E.g. trackball) to use the interaction technique to remotely control the display cursor. {Client-side of the system}
+Click on the stop connection button displayed on the smartphone screen to disconnect the server.
