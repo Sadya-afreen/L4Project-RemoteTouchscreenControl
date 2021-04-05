@@ -12,48 +12,45 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketException;
 import javax.swing.JOptionPane;
-
 /**
  *
  * @author sadya
  */
 
 /** Class to execute the display cursor control functionality based on the client cursor updates received.*/
-public class RotateTechniqueServer  implements ServerApp_AirMouse.IGetMessage {
+public class RotateTechniqueServer  implements ServerInterface.MessageReceiveInterface {
  
-    private ServerApp_AirMouse server;       // Server initiated from ServerApp_Airmouse interface
+    private ServerInterface server;       // Server initiated from ServerInterface interface
     private int x, y;
     private Robot robot;                     // Robot instance to execute various message requests received             
-    enum Button	{ LEFT, RIGHT }
-
-    private final int MAX_X;                // Max x value to set the cursor not beyond the screen size
-    private final int MAX_Y;                // Max y value to set the cursor not beyond the screen size
-    private final int MIN_X;                // Man x value to set the cursor not beyond the screen size
-    private final int MIN_Y;                // Min y value to set the cursor not beyond the screen size
+    private final int maximum_x;                // Max x value to set the cursor not beyond the screen size
+    private final int maximum_y;                // Max y value to set the cursor not beyond the screen size
+    private final int minimum_x;                // Man x value to set the cursor not beyond the screen size
+    private final int minimum_y;                // Min y value to set the cursor not beyond the screen size
     
     public RotateTechniqueServer() throws AWTException
 	{
-		server = new ServerApp_AirMouse(this);
+		server = new ServerInterface(this);
 		server.start();
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-		MAX_X = (int)screenSize.getWidth();
-		MAX_Y = (int)screenSize.getHeight();
-		MIN_X = 0;
-		MIN_Y = 0;
-		x = MAX_X/2;
-		y = MAX_Y/2;
+		maximum_x = (int)screenSize.getWidth();
+		maximum_y = (int)screenSize.getHeight();
+		minimum_x = 0;
+		minimum_y = 0;
+		x = maximum_x/2;
+		y = maximum_y/2;
 		robot = new Robot();
 		move (0,0);
 	}
 
 	public void move(int dx,int dy)
 	{
-		x = (x+dx)>MAX_X?MAX_X:((x+dx)<MIN_X?MIN_X:x+dx);
-		y = (y+dy)>MAX_Y?MAX_Y:((y+dy)<MIN_Y?MIN_Y:y+dy);
+		x = (x+dx)>maximum_x?maximum_x:((x+dx)<minimum_x?minimum_x:x+dx);
+		y = (y+dy)>maximum_y?maximum_y:((y+dy)<minimum_y?minimum_y:y+dy);
 		robot.mouseMove(x,y);                                  // Robot controls display cursor and moves it based on values received.
 	}
 
-	private void clickButton(String b)
+	private void ButtonEvents(String b)
 	{
 		switch(b)
 		{
@@ -73,7 +70,7 @@ public class RotateTechniqueServer  implements ServerApp_AirMouse.IGetMessage {
                     case "rightrelease":
                         robot.mouseRelease(InputEvent.BUTTON3_DOWN_MASK);
                         break;
-                    case "stop":                                             // Disconnect server once 'stop' message recieved.
+                    case "stop":                                             // Disconnect server once 'stop' message received.
                         String text = "Press OK to disconnect the server";
                         String title = "Server Connection";
                         int optionType = JOptionPane.OK_CANCEL_OPTION;
@@ -89,7 +86,7 @@ public class RotateTechniqueServer  implements ServerApp_AirMouse.IGetMessage {
 		}
 	}	
 
-	private void processSensorData(float[] values)
+	private void SensorDataProcessed(float[] values)
 	{
 		float magnitude = (float)Math.sqrt(values[0]*values[0] + 
 							values[1]*values[1] + values[2]*values[2]);
@@ -116,23 +113,23 @@ public class RotateTechniqueServer  implements ServerApp_AirMouse.IGetMessage {
 			{
 				case "leftclick":
                                         s = "leftclick";
-					clickButton(s);
+					ButtonEvents(s);
 					break;
                                 case "leftrelease":
                                         s = "leftrelease";
-                                        clickButton(s);
+                                        ButtonEvents(s);
                                         break;
 				case "rightclick":
                                         s = "rightclick";
-                                        clickButton(s);
+                                        ButtonEvents(s);
 					break;
                                 case "rightrelease":
                                         s = "rightrelease";
-					clickButton(s);
+					ButtonEvents(s);
 					break;
                                 case "stop":
                                         s = "stop";
-					clickButton(s);
+					ButtonEvents(s);
 					break;
 			}
 		else
@@ -141,21 +138,21 @@ public class RotateTechniqueServer  implements ServerApp_AirMouse.IGetMessage {
 			for (int i = 0;i<dataParts.length;i++)
 				values[i] = Float.parseFloat(dataParts[i]);
                                
-			processSensorData(values);
+			SensorDataProcessed(values);
                         
 		}
 	}
 
-	public void waitForServer()
+	public void Wait()
 	{
-		server.waitForServer();
+		server.Wait();
 	}
 
 	public static void main(String []args) throws AWTException
 	{
 		RotateTechniqueServer a = new RotateTechniqueServer();
 		System.out.println("Server Started");
-		a.waitForServer();
+		a.Wait();
 	}
     
 }
