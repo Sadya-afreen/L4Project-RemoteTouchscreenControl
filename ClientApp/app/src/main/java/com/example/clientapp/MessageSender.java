@@ -19,7 +19,7 @@ import java.net.Socket;
 import java.util.ArrayList;
 
 /**
- * Starting screen interface that allows users to enter the IP address of the servers t start a connection.
+ * Starting screen interface that allows users to enter the IP address of the servers to start a connection.
  */
 public class MessageSender extends AppCompatActivity implements View.OnClickListener{
 

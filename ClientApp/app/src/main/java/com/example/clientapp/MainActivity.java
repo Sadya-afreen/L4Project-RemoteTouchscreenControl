@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity{
     TextView tv1, tv2;
     private float x_0, y_0;
 
-    /* variable for counting two successive up-down events */
+    /* variable for counting two successive tap events */
     int clickCount = 0;
     /*variable for storing the time of first click*/
     long startTime;
@@ -237,33 +237,7 @@ public class MainActivity extends AppCompatActivity{
 
                                     }
                                 }
-//                                if (mLastMoveX != Float.MAX_VALUE && mLastMoveY != Float.MAX_VALUE) {
-//
-//                                    //trial
-//                                    disX = (int) ((int)event.getX() - mDownX); //Mouse movement in x direction
-//                                    disY = (int) ((int)event.getY() - mDownY); //Mouse movement in y direction
-//                                    mDownX = event.getX();
-//                                    mDownY = event.getY();
-//////                                    disX = (int) ((int)initX - mDownX); //Mouse movement in x direction
-//////                                    disY = (int) ((int) initY - mDownY); //Mouse movement in y direction
-//                                }
-//                                int distance = (int) Math.sqrt(disX * disX + disY * disY);
-//                                if (distance > 100 || System.currentTimeMillis() - mLastMoveTime > 100) {
-//                                    if(disX!=0 || disY!=0) {
-//                                        if (mBoundService != null) {
-//
-//                                            mBoundService.sendMessage((disX + "," + disY).toString());
-//
-//                                        }
-//                                    }
-//                                    //   sendCommand(OperationData.OPERATION_MOVE, distanceX, distanceY, null);
-//                                    mLastMoveX = initX;
-//                                    mLastMoveY = initY;
-//
-//////                                    lX=disX;
-//////                                    lY=disY;
-//                                    mLastMoveTime = System.currentTimeMillis();
-//                                }
+
 ////                                System.out.println(touch_pad.getLayout().getWidth());
 //                                //if(touch_pad.getLayout().getWidth())
 //                               // c.drawCircle(initX, initY, 30, paint);
@@ -275,27 +249,6 @@ public class MainActivity extends AppCompatActivity{
                                 break;
 
 
-//                                disX = (int)(event.getX() - initX); //Mouse movement in x direction
-//                                disY = (int)(event.getY() - initY); //Mouse movement in y direction
-//                            /*set init to new position so that continuous mouse movement
-//                            is captured*/
-//                                initX = event.getX();
-//                                initY = event.getY();
-//                                if (disX != 0 || disY != 0) {
-//                                    //out.println(disX + "," + disY); //send mouse movement to server
-//
-////                                    cursor_button.setX(initX);
-////                                    cursor_button.setY(initY);
-//                                    if (mBoundService != null) {
-//                                        mBoundService.sendMessage((disX + "," + disY).toString());
-//                                    }
-//                                }
-//                                //    list.add((disX + "," + disY + ",").toString());
-//
-//                            //messagesender.execute((disX +"," + disY).toString());
-//
-//                                mouseMoved = true;
-//                                break;
                             case MotionEvent.ACTION_UP:                               // Finger moved from the trackpad detected to distinguish between relative and absolute cursor mode.
                                 lastUpX = (int) event.getX();
                                 lastUpY = (int) event.getY();
@@ -343,17 +296,17 @@ public class MainActivity extends AppCompatActivity{
 
 
     }
-    private boolean held_too_long( MotionEvent event){
-        return event.getEventTime()-time_0 > 3;
-
-    }
-
-    private void down(MotionEvent touch)
-    {
-        time_0= touch.getEventTime();
-        x_0= touch.getX();
-        y_0= touch.getY();
-    }
+//    private boolean held_too_long( MotionEvent event){
+//        return event.getEventTime()-time_0 > 3;
+//
+//    }
+//
+//    private void down(MotionEvent touch)
+//    {
+//        time_0= touch.getEventTime();
+//        x_0= touch.getX();
+//        y_0= touch.getY();
+//    }
 
     private void onSingClick(MotionEvent event, boolean down) {        // Method to check previous cursor position to allow constant relative cursor mode updates to be sent.
 
