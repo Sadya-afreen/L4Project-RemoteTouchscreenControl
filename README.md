@@ -4,7 +4,8 @@ Publicly shared touchscreens always possessed hygiene issues given that multiple
 
 The interaction techniques allow users to remotely control a display cursor using smartphones. 
 
-Technique 1 - Smart Trackpad allows users to relatively move their finger on the trackpad to remotely control the display cursor. Left and right buttons allow target selection that follow the conventional button functionality. 
+Technique 1 - Smart Trackpad allows users to relatively move their finger on the trackpad to remotely control the display cursor. Relative and absolute cursor modes are facilitated by this technique. Left and right buttons allow target selection that follow the conventional button functionality. 
+![Trackpad_collage.png]
 
 Technique 2 - Smart Trackball technique allows users to relatively move their finger on the trackball to remotely control the display cursor. This technique required circular finger movements on a smaller area unlike the linear movements on the trackpad. Buttons placed at the bottom of the screen allows selection on the remote screen.
 
